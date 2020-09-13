@@ -1,7 +1,6 @@
 ---
 layout: about
 image: /assets/img/face.jpg
-title: Home
 description: >
   My (Thomas van den Nieuwenhoff) personal website.
 hide_description: true
@@ -12,6 +11,6 @@ hide_image: false
 cover: true
 ---
 
-# About
+# About me
 
 <!--author-->

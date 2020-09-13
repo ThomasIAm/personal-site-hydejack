@@ -6,6 +6,6 @@ description: >
 hide_description: true
 ---
 
-# About
+# About me
 
 <!--author-->
