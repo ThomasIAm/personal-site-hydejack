@@ -49,13 +49,11 @@ author:
   twitter: thomasikdus
 
 # Add links to the sidebar.
-menu: # TODO: change items
-  - title: Example
-    url: /example/
-  - title: Documentation
-    url: /docs/
+menu:
   - title: About
     url: /about/
+  - title: Blog
+    url: /blog/
   - title: Wiki
     url: https://wiki.tvdn.me
 
