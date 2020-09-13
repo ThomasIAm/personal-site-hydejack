@@ -10,6 +10,4 @@ hide_image: false
 cover: true
 ---
 
-# About me
-
-<!--author-->
+{% include about.md %}
