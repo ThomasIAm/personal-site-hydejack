@@ -6,6 +6,4 @@ description: >
 hide_description: true
 ---
 
-# About me
-
-<!--author-->
+{% include about.md %}
