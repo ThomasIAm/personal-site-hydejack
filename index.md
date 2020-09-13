@@ -2,15 +2,14 @@
 layout: about
 image: /assets/img/face.jpg
 description: >
-My (Thomas van den Nieuwenhoff) personal website.
+  My (Thomas van den Nieuwenhoff) personal website.
 hide_description: true
-last_modified_at: 2020-09-13
 no_link_title: false
 no_excerpt: false
 hide_image: false
 cover: true
 ---
 
-<h1>About me</h1>
+# About me
 
 <!--author-->
