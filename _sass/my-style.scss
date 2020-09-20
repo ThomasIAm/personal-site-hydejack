@@ -16,6 +16,10 @@
 	a {
 		border: none;
 	}
+
+	a::after {
+		display: none;
+	}
 }
 
 /* Hide the images by default */
