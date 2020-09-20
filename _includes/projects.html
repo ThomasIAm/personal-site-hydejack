@@ -4,8 +4,8 @@
 	<!-- Full-width images with number and caption text -->
 	<div class="mySlides fade">
 		<div class="numbertext">1 / 4</div>
-		<a href="https://wiki.tvdn.me" target="_blank"></a>
-		<img src="https://via.placeholder.com/700x300" style="width:100%">
+		<a href="https://wiki.tvdn.me" target="_blank">
+			<img src="https://via.placeholder.com/700x300" style="width:100%">
 		</a>
 		<div class="text">My personal wiki, made with wiki.js</div>
 	</div>
@@ -48,7 +48,7 @@
 	<span class="dot" onclick="currentSlide(4)"></span>
 </div>
 
-<script typ>
+<script>
 	var slideIndex = 1;
 	showSlides(slideIndex);
 
@@ -74,6 +74,5 @@
 		}
 		slides[slideIndex - 1].style.display = "block";
 		dots[slideIndex - 1].className += " active";
-		setTimeout(showSlides(slideIndex++), 2000);
 	}
 </script>
