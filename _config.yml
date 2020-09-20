@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url: https://personal-site-hydejack.netlify.app # TODO: change url
+url: https://tvdn.me
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -54,18 +54,20 @@ menu:
     url: /about/
   - title: Blog
     url: /blog/
+  - title: Projects
+    url: /projects
   - title: Wiki
     url: https://wiki.tvdn.me
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal: # TODO: decide what to do with this
-  - title: LICENSE
-    url: /LICENSE/
-  - title: NOTICE
-    url: /NOTICE/
-  - title: CHANGELOG
-    url: /CHANGELOG/
+# legal:
+#   - title: LICENSE
+#     url: /LICENSE/
+#   - title: NOTICE
+#     url: /NOTICE/
+#   - title: CHANGELOG
+#     url: /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright: © 2020. All rights reserved.
