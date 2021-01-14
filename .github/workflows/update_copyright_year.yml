@@ -60,7 +60,7 @@ jobs:
           #
           # Required: false
           # Default: license/copyright-to-{{currentYear}}
-          branchName: 'master'
+          branchName: ''
 
           # The git commit title. Supports substituting variable {{currentYear}}.
           #
