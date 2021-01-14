@@ -1,0 +1,32 @@
+# This workflow updates copyright years in required files
+
+name: Copyright year updater
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on the first minute of the new year
+  schedule:
+    - cron: "0 0 1 1 *"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "update"
+  update:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: License year updater
+        # You may pin to the exact commit or the version.
+        # uses: p3lim/license-year-updater@614a4ae3023f190edf81c39869c6f39871a68af4
+        uses: p3lim/license-year-updater@v1
+        with:
+          # Space-separated list of license files to update
+          files: _config.yml
