@@ -54,7 +54,7 @@ jobs:
           #
           # Required: false
           # Default: null
-          transform: ''
+          transform: '^([Cc]opyright.+) (?<from>[0-9]{4})(.+)$'
 
           # The branch name. Supports substituting variable {{currentYear}}.
           #
