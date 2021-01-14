@@ -23,10 +23,93 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: License year updater
-        # You may pin to the exact commit or the version.
-        # uses: p3lim/license-year-updater@614a4ae3023f190edf81c39869c6f39871a68af4
-        uses: ThomasIAm/license-year-updater@v1.0.1
+      - uses: FantasticFiasco/action-update-license-year@v2
         with:
-          # Space-separated list of license files to update
-          files: _config.yml
+          # Personal access token (PAT) used when interacting with Git and GitHub.
+          #
+          # We recommend using a service account with the least permissions necessary. Also
+          # when generating a new PAT, select the least scopes necessary.
+          #
+          # [Learn more about creating and using encrypted secrets](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
+          #
+          # Required: true
+          token: ${{ secrets.GH_PAT }}
+
+          # A path or wildcard pattern specifying files to transform. Multiple paths can be
+          # specified using literal styled YAML.
+          #
+          # Required: false
+          # Default: LICENSE
+          path: '_config.yml'
+
+          # A regular expression (JavaScript flavor) describing the license transform. The
+          # expression must have the following properties:
+          #
+          # - A capturing group named "from", encapsulating the first year of license
+          # validity
+          # - Written to support the RegExp flags "im" ("ignore case" and "multiline")
+          #
+          # The expression will be used by String.prototype.replace() to apply the
+          # transformation.
+          #
+          # Required: false
+          # Default: null
+          transform: ''
+
+          # The branch name. Supports substituting variable {{currentYear}}.
+          #
+          # Required: false
+          # Default: license/copyright-to-{{currentYear}}
+          branchName: 'master'
+
+          # The git commit title. Supports substituting variable {{currentYear}}.
+          #
+          # Required: false
+          # Default: docs(license): update copyright year(s)
+          commitTitle: 'update copyright year(s)'
+
+          # The git commit body that will be appended to commit title, separated by two line
+          # returns. Supports substituting variable {{currentYear}}.
+          #
+          # Required: false
+          # Default: 
+          commitBody: ''
+
+          # The git author name, used when committing changes to the repository.
+          #
+          # Required: false
+          # Default: github-actions
+          commitAuthorName: ''
+
+          # The git author e-mail, used when committing changes to the repository.
+          #
+          # Required: false
+          # Default: github-actions@github.com
+          commitAuthorEmail: ''
+
+          # The title of the new pull request. Supports substituting variable
+          # {{currentYear}}.
+          #
+          # Required: false
+          # Default: Update license copyright year(s)
+          prTitle: ''
+
+          # The contents of the pull request. Supports substituting variable
+          # {{currentYear}}.
+          #
+          # Required: false
+          # Default: 
+          prBody: ''
+
+          # Comma-separated list with usernames of people to assign when pull request is
+          # created.
+          #
+          # Required: false
+          # Default: 
+          assignees: 'ThomasIAm'
+
+          # Comma-separated list of labels to add when pull request is created.
+          #
+          # Required: false
+          # Default: 
+          labels: ''
