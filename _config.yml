@@ -60,6 +60,10 @@ menu:
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal: # TODO: decide what to do with this
+  - title: PRIVACY
+    url: /PRIVACY/
+  - title: COOKIES
+    url: /COOKIES/
   - title: LICENSE
     url: /LICENSE/
   - title: NOTICE
