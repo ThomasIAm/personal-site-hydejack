@@ -38,7 +38,7 @@ keywords: [Thomas, van, den, Nieuwenhoff, tvdn, personal, portfolio, blog]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: /assets/img/face.jpg
+logo: /assets/global/img/face/face-891x891.webp
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -107,7 +107,7 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
 
 # Sidebar image and theme color of the site.
-accent_image: /assets/img/sidebar-bg.jpg
+accent_image: /assets/global/img/bg/sidebar-bg-3000x1688.webp
 accent_color: rgb(244,67,54)
 
 # This is used for the `theme-color` meta tag,
@@ -391,21 +391,21 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/global/img/bg/sidebar-bg-3000x1688.webp
     posts:
       layout: post
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/global/img/bg/sidebar-bg-3000x1688.webp
     projects:
       layout: project
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/global/img/bg/sidebar-bg-3000x1688.webp
       links:
         - title: Project Link
           url: https://example.com
