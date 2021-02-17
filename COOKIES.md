@@ -1,6 +1,6 @@
 ---
 layout: page
-sitemap: true
+sitemap: false
 ---
 
 # Cookie Policy for tvdn.me
