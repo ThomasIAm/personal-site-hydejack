@@ -1,6 +1,6 @@
 ---
 layout: about
-image: /assets/img/face.jpg
+image: /assets/global/img/face/face-2673x2673.jpg
 description: >
   My (Thomas van den Nieuwenhoff) personal website.
 hide_description: true
