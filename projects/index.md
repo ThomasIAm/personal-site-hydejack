@@ -1,11 +1,7 @@
 ---
 title: Projects
 description: >
-	An overview of several projects I've done over the years.
+    An overview of several projects I've done over the years. Click on one of them to view its webpage.
 ---
-
-# Projects
-
-An overview of several projects I've done over the years.
 
 {% include projects.html %}
