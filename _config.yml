@@ -38,7 +38,7 @@ keywords: [Thomas, van, den, Nieuwenhoff, tvdn, personal, portfolio, blog]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: /assets/img/face.jpg
+logo: /assets/global/img/face/face-891x891.webp
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -60,6 +60,10 @@ menu:
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal: # TODO: decide what to do with this
+  - title: PRIVACY
+    url: /PRIVACY/
+  - title: COOKIES
+    url: /COOKIES/
   - title: LICENSE
     url: /LICENSE/
   - title: NOTICE
@@ -68,7 +72,7 @@ legal: # TODO: decide what to do with this
     url: /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright: © 2020. All rights reserved.
+copyright: © 2020-2021. All rights reserved.
 
 # Format of the permalinks
 permalink: /:categories/:year-:month-:day-:title/
@@ -103,7 +107,7 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
 
 # Sidebar image and theme color of the site.
-accent_image: /assets/img/sidebar-bg.jpg
+accent_image: /assets/global/img/bg/sidebar-bg-3000x1688.webp
 accent_color: rgb(244,67,54)
 
 # This is used for the `theme-color` meta tag,
@@ -387,21 +391,22 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/global/img/bg/sidebar-bg-3000x1688.webp
     posts:
       layout: post
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/global/img/bg/sidebar-bg-3000x1688.webp
     projects:
       layout: project
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/global/img/bg/sidebar-bg-3000x1688.webp
       links:
         - title: Project Link
           url: https://example.com
+      url: https://example.com
