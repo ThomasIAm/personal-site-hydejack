@@ -5,8 +5,8 @@ sitemap: false
 
 # Privacy Policy for tvdn.me
 
-* this list will be replaced by the toc
-{:toc .large-only}
+- this list will be replaced by the toc
+  {:toc .large-only}
 
 At tvdn.me, accessible from https://tvdn.me, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by tvdn.me and how we use it.
 
@@ -30,13 +30,13 @@ When you register for an Account, we may ask for your contact information, inclu
 
 We use the information we collect in various ways, including to:
 
-*   Provide, operate, and maintain our webste
-*   Improve, personalize, and expand our webste
-*   Understand and analyze how you use our webste
-*   Develop new products, services, features, and functionality
-*   Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the webste, and for marketing and promotional purposes
-*   Send you emails
-*   Find and prevent fraud
+- Provide, operate, and maintain our website
+- Improve, personalize, and expand our website
+- Understand and analyze how you use our website
+- Develop new products, services, features, and functionality
+- Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes
+- Send you emails
+- Find and prevent fraud
 
 ## Log Files
 
