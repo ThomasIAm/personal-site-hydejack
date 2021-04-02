@@ -35,7 +35,7 @@ HE kan verschillende encryptievormen gebruiken, die verschillende soorten comput
 
 ### FHE vs. PHE
 
-Wanneer de encryptievorm volledig homomorf is (ook wel de "heilige graal" van encryptie genoemd), kan het voor elk gewenst doel gebruikt worden [^wiki2021][^armk2015][^will2015]. *Partially Homomorphic Encryption* (PHE) kan slechts gebruikt worden voor optellingen óf multiplicaties, niet beide. FHE ondersteund dit wél en heeft bovendien de potentie om nog veel meer te ondersteunen. Naast FHE en PHE zijn er nog een aantal andere categoriën van HE. Zo bestaat er *Somewhat Homomorphic Encryption* (SWHE) en *Leveled Fully HE* (LFHE). Dit zijn verschillende combinaties van HE waarin extra functionaliteit is toegevoegd.
+Wanneer de encryptievorm volledig homomorf is (ook wel de "heilige graal" van encryptie genoemd), kan het voor elk gewenst doel gebruikt worden [^wiki2021][^armk2015][^will2015]. *Partially Homomorphic Encryption* (PHE) kan slechts gebruikt worden voor optellingen óf multiplicaties, niet beide. FHE ondersteund dit wél en heeft bovendien de potentie om nog veel meer te ondersteunen. Naast FHE en PHE zijn er nog een aantal andere categoriën van HE. Zo bestaat er *Somewhat Homomorphic Encryption* (SWHE) en *Leveled Fully Homomorphic Encryption* (LFHE). Dit zijn verschillende combinaties van HE waarin extra functionaliteit is toegevoegd.
 
 *Partially Homomorphic Encryption* verschilt van *Fully Homomorphic Encryption* doordat het optellingen óf vermenigvuldigingen kan ondersteunen, niet beide.
 {:.note title="Notitie"}
