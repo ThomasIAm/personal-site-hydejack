@@ -6,7 +6,6 @@ description: >
   Homomorphic Encryption is considered the holy grail of encryption, but what is it and how can it be used?
 author: tvdn
 excerpt_separator: <!--more-->
-last_modified_at: 2020-04-02
 ---
 
 Misschien heb je er al wel eens van gehoord, maar waarschijnlijk zegt het je nog niets: *Homomorphic Encryption*. Kort samengevat is het een vorm van encryptie waarbij gegevens in een cijfertekst kunnen worden omgezet, terwijl ze geanalyseerd kunnen worden alsof ze nog in de oorspronkelijke vorm zijn. Klinkt interessant? Lees dan vooral verder!
@@ -14,7 +13,7 @@ Misschien heb je er al wel eens van gehoord, maar waarschijnlijk zegt het je nog
 <!--more-->
 
 - Table of Contents
-{:toc .large-only}
+{:toc}
 
 ## Wat is *Homomorphic Encryption*?
 
@@ -39,6 +38,15 @@ Wanneer de encryptievorm volledig homomorf is (ook wel de "heilige graal" van en
 
 *Partially Homomorphic Encryption* verschilt van *Fully Homomorphic Encryption* doordat het optellingen óf vermenigvuldigingen kan ondersteunen, niet beide.
 {:.note title="Notitie"}
+
+## De geschiedenis van FHE
+
+Wel of niet toevoegen?
+{:.faded}
+
+## De voor- en nadelen van FHE
+
+
 
 <!-- Sources -->
 [^wiki2021]: "Homomorphic Encryption", *Wikipedia, The Free Encyclopedia*, 2021. [Online]. Available: [https://en.wikipedia.org/w/index.php?title=Homomorphic_encryption&oldid=1002934075](https://en.wikipedia.org/w/index.php?title=Homomorphic_encryption&oldid=1002934075).
