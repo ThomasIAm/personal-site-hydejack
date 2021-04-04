@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url: https://personal-site-hydejack.netlify.app # TODO: change url
+url: https://tvdn.me
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -54,6 +54,8 @@ menu:
     url: /about/
   - title: Blog
     url: /blog/
+  - title: Projects
+    url: /projects
   - title: Wiki
     url: https://wiki.tvdn.me
 
