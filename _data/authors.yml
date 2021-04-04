@@ -17,7 +17,7 @@ tvdn:
     srcset:
       1x: /assets/global/img/face/face-243x243.webp
       2x: /assets/global/img/face/face-891x891.webp
-      3x: /assets/global/img/face/face-2673x2673.webp
+      3x: /assets/global/img/face/face-2673x2673.jpg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide

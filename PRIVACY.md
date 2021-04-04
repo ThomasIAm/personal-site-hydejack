@@ -1,6 +1,6 @@
 ---
 layout: page
-sitemap: true
+sitemap: false
 ---
 
 # Privacy Policy for tvdn.me
