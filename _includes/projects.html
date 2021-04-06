@@ -1,0 +1,106 @@
+<div class="test"></div>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+	<!-- Full-width images with number and caption text -->
+	<div class="mySlides fade">
+		<div class="numbertext">1 / 6</div>
+		<a href="https://github.com/ThomasIAm/WindeSearch" target="_blank">
+			<img src="https://github.com/ThomasIAm/WindeSearch/blob/main/screenshots/google/main.jpg?raw=true" style="width:100%">
+		</a>
+		<div class="text">A browser extension that makes it easy to access WindeSearch (my school's library search engine)</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">2 / 6</div>
+		<a href="https://pp3.tvdn.me" target="_blank">
+			<img src="/assets/projects/pp3.png" style="width:100%">
+		</a>
+		<div class="text">The CTF I made for a school project</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">3 / 6</div>
+		<a href="https://wiki.tvdn.me" target="_blank">
+			<img src="/assets/projects/wiki.jpeg" style="width:100%">
+		</a>
+		<div class="text">My personal wiki, made with wiki.js</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">4 / 6</div>
+		<a href="https://vm2.tvdn.me" target="_blank">
+			<img src="https://github.com/ThomasIAm/VM2Portaal/blob/master/VM2PortaalCover.png?raw=true" style="width:100%">
+		</a>
+		<div class="text">A simple cloud portal, made for a school project</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">5 / 6</div>
+		<a href="https://benikincapabel.nl" target="_blank">
+			<img src="/assets/projects/benikincapabel.jpeg" style="width:100%">
+		</a>
+		<div class="text">benikincapabel.nl: a joke gone live</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">6 / 7</div>
+		<a href="https://ai.tvdn.me" target="_blank">
+			<img src="/assets/projects/ai.png" style="width:100%">
+		</a>
+		<div class="text">A website about Artificial Intelligence, made for a school project.</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">7 / 7</div>
+		<a href="https://old.tvdn.me" target="_blank">
+			<img src="/assets/projects/old.jpeg" style="width:100%">
+		</a>
+		<div class="text">My old personal website, made in PHP with Material Design</div>
+	</div>
+
+	<!-- Next and previous buttons -->
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+	<span class="dot" onclick="currentSlide(3)"></span>
+	<span class="dot" onclick="currentSlide(4)"></span>
+	<span class="dot" onclick="currentSlide(5)"></span>
+	<span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+</div>
+
+<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+		showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+		showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("dot");
+		if (n > slides.length) { slideIndex = 1 }
+		if (n < 1) { slideIndex = slides.length }
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex - 1].style.display = "block";
+		dots[slideIndex - 1].className += " active";
+	}
+</script>
