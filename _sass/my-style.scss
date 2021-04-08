@@ -7,6 +7,11 @@
 	box-sizing: border-box;
 }
 
+/* Spotify Playing Now */
+.sidebar-spotify::after {
+		display: none;
+}
+
 /* Slideshow container */
 .slideshow-container {
 	position: relative;
