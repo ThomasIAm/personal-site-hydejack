@@ -1,14 +1,18 @@
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "39291b9b5d3a4ac18723f94cc186cb12"}'></script><!-- End Cloudflare Web Analytics -->
 
 <script>
+    var div = document.createElement('div');
+    div.classList.add('sidebar-spotify');
+
     var a = document.createElement('a');
-    a.href = 'https://open.spotify.com/user/5xujnuvk3zzfzgt5953dl342z?si=A4seavF5ToiglXf2A1oZDQ';
-    a.classList.add('sidebar-spotify');
+    a.href = 'https://now-playing-profile-thomasiam.vercel.app/now-playing-white?open';
+    a.classList.add('sidebar-spotify-link');
 
     var img = document.createElement('img');
     img.src = 'https://now-playing-profile.thomasiam.vercel.app/now-playing-white';
-    img.alt = 'Now Playing';
-    img.onerror = 'this.style.display="none"'
+    img.alt = '';
 
-    document.getElementsByClassName('sidebar-sticky')[0].appendChild(a).appendChild(img);
+    a.appendChild(img);
+    div.appendChild(a);
+    document.getElementsByClassName('sidebar-sticky')[0].appendChild(div);
 </script>
