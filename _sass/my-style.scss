@@ -12,8 +12,19 @@
 }
 
 /* Spotify Playing Now */
-.sidebar-spotify::after {
+.sidebar-spotify {
+	.sidebar-spotify-link::after {
 		display: none;
+	}
+	
+	.sidebar-spotify-link {
+		img {
+			border-bottom-width: 2px;
+			border-bottom-style: solid;
+			border-bottom-color: rgba(255,255,255,0.2);
+			padding: .5rem 0;
+		}
+	}
 }
 
 /* Slideshow container */
