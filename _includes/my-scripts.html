@@ -1,18 +1,18 @@
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "39291b9b5d3a4ac18723f94cc186cb12"}'></script><!-- End Cloudflare Web Analytics -->
 
 <script>
-    var div = document.createElement('div');
-    div.classList.add('sidebar-spotify');
+    var spotifyWrapper = document.createElement('div');
+    spotifyWrapper.classList.add('sidebar-spotify');
 
-    var a = document.createElement('a');
-    a.href = 'https://now-playing-profile-thomasiam.vercel.app/now-playing-white?open';
-    a.classList.add('sidebar-spotify-link');
+    var spotifyLink = document.createElement('a');
+    spotifyLink.href = 'https://now-playing-profile-thomasiam.vercel.app/now-playing-white?open';
+    spotifyLink.classList.add('sidebar-spotify-link');
 
-    var img = document.createElement('img');
-    img.src = 'https://now-playing-profile.thomasiam.vercel.app/now-playing-white';
-    img.alt = '';
+    var spotifyPlayer = document.createElement('img');
+    spotifyPlayer.src = 'https://now-playing-profile.thomasiam.vercel.app/now-playing-white';
+    spotifyPlayer.alt = '';
 
-    a.appendChild(img);
-    div.appendChild(a);
-    document.getElementsByClassName('sidebar-sticky')[0].appendChild(div);
+    spotifyLink.appendChild(spotifyPlayer);
+    spotifyWrapper.appendChild(spotifyLink);
+    document.getElementsByClassName('sidebar-sticky')[0].appendChild(spotifyWrapper);
 </script>
