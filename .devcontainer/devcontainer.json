@@ -16,7 +16,14 @@
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": ["docsmsft.docs-markdown","ritwickdey.liveserver","shd101wyy.markdown-preview-enhanced","davidanson.vscode-markdownlint"],
+	"extensions": [
+		"docsmsft.docs-markdown",
+		"ritwickdey.liveserver",
+		"shd101wyy.markdown-preview-enhanced",
+		"davidanson.vscode-markdownlint",
+		"znck.grammarly",
+		"adamvoss.vscode-languagetool"
+	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
