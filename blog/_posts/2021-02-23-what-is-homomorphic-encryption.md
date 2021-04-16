@@ -39,14 +39,74 @@ Wanneer de encryptievorm volledig homomorf is (ook wel de "heilige graal" van en
 *Partially Homomorphic Encryption* verschilt van *Fully Homomorphic Encryption* doordat het optellingen óf vermenigvuldigingen kan ondersteunen, niet beide.
 {:.note title="Notitie"}
 
-## De geschiedenis van FHE
+## De geschiedenis
 
-Wel of niet toevoegen?
-{:.faded}
+> Wel of niet toevoegen?
 
-## De voor- en nadelen van FHE
+## De voor- en nadelen
+
+Als de "heilige graal" van encryptie heeft FHE natuurlijk een aantal sterke kanten, maar ook zeker een aantal zwakheden.
+
+### Ondersteunde operaties
+
+Het grootste voordeel van FHE is dat het meerdere operaties (momenteel alleen optellingen en vermenigvuldigingen) ondersteund op versleutelde data [^will2015]. Dit bespaart niet alleen de moeite van iets moeten ontcijferen voordat het gebruikt kan worden, maar de veiligheid van de data wordt vors verhoogd. Omdat de data nooit naar een leesbare vorm omgewerkt hoeven te worden, kan alleen de versleutelde vorm gestolen worden. Het blijft uiteraard belangrijk om óók versleutelde data goed te beschermen tegen diefstal. Het jammere is dat er momenteel beperkingen zijn met betrekking tot het ondersteunen van een breed scala aan bewerkingen/functies, ookal zouden deze wel mogelijk moeten zijn. De met FHE beveiligde data zou natuurlijk altijd nog ontcijferd kunnen worden om niet-ondersteunde operaties op los ta laten. Dit is alleen niet erg praktisch en je verliest dan het hele voordeel van "altijd versleuteld zijn".
+
+### Onbetrouwbare verwerkers
+
+Doordat de versleutelde data nooit ontcijferd hoeft te worden, kunnen berekeningen die normaal alleen op eigen hardware plaats zouden vinden, uitbesteed worden aan een onbetrouwbare partij zoals een publieke cloudprovider [^will2015]. Denk hierbij aan het verwerken van zeer gevoelige gegevens (zowel business als privacy). In de meest serieuze gevallen wordt er dan gekozen om de data *on-premise* te houden. FHE staat de verwerker toe om zijn data veilig in de cloud op te slaan én te verwerken. Dit opent de deur om gebruik te maken van alle voordelen die dergelijke providers kunnen bieden.
+
+### Prestaties
 
 
+
+### Compromis
+
+### Volwassenheid
+
+### Verzamelen van data
+
+### Ondersteunen van meerdere gebruikers
+
+### Cryptografische ruis
+
+### Post-kwantum cryptografie
+
+### Verschillende implementaties
+
+### Bruikbaarheid
+
+### Data-inkomsten genereren
+
+### Regelgeving
+
+## De bedrijfstoepassingen
+
+### Praktijkvoorbeelden
+
+#### IBM
+
+#### Chrome & Edge
+
+#### Microsoft ElectionGuard
+
+### Theoretische toepassingen
+
+#### IOT
+
+#### Genomica
+
+#### E-health
+
+#### Schoolverlaters
+
+#### Privacy bij advertenties
+
+#### Financiële privacy
+
+#### Forensische beeldherkenning
+
+Dit artikel is gebaseerd op een onderzoeksrapport wat ik geschreven heb voor het project "Fully Homomorphic Encryption" in opdracht van SALT Cyber Security. [Onderzoeksrapport_Thomas van den Nieuwenhoff_S1124775_V1.0_Redacted.pdf](/assets/blog/2021-02-23-what-is-homomorphic-encryption/Onderzoeksrapport_Thomas van den Nieuwenhoff_S1124775_V1.0_Redacted.pdf)
+{:.note title="Opmerking"}
 
 <!-- Sources -->
 [^wiki2021]: "Homomorphic Encryption", *Wikipedia, The Free Encyclopedia*, 2021. [Online]. Available: [https://en.wikipedia.org/w/index.php?title=Homomorphic_encryption&oldid=1002934075](https://en.wikipedia.org/w/index.php?title=Homomorphic_encryption&oldid=1002934075).
