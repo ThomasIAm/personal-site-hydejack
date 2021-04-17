@@ -56,12 +56,14 @@ menu:
     url: /blog/
   - title: Projects
     url: /projects
+  - title: Contact
+    url: /contact
   - title: Wiki
     url: https://wiki.tvdn.me
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal: # TODO: decide what to do with this
+legal:
   - title: PRIVACY
     url: /PRIVACY/
   - title: COOKIES

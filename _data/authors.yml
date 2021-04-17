@@ -24,9 +24,10 @@ tvdn:
   # Rearrange to change the order in which they appear
   social:
     linkedin: thomasvandennieuwenhoff
-    # twitter:         <username>
     github: ThomasIAm
-    # email:           <mail@domain.tld>
+    twitter: thomasikdus
+    instagram: thomasikdus
+    email: thomas@tvdn.me
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -37,7 +38,6 @@ tvdn:
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    instagram: thomasikdus
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
