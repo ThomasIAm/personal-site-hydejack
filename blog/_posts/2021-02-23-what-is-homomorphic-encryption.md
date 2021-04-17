@@ -10,6 +10,9 @@ excerpt_separator: <!--more-->
 
 Misschien heb je er al wel eens van gehoord, maar waarschijnlijk zegt het je nog niets: *Homomorphic Encryption*. Kort samengevat is het een vorm van encryptie waarbij gegevens in een cijfertekst kunnen worden omgezet, terwijl ze geanalyseerd kunnen worden alsof ze nog in de oorspronkelijke vorm zijn. Klinkt interessant? Lees dan vooral verder!
 
+Geschatte leestijd: 3 minuten
+{:.faded}
+
 <!--more-->
 
 - Table of Contents
@@ -22,7 +25,7 @@ Misschien heb je er al wel eens van gehoord, maar waarschijnlijk zegt het je nog
 
 *Homomorphic Encryption* (HE) maakt het dus mogelijk om (bepaalde) berekeningen te maken met *versleutelde* tekst [^wiki2019]. Dit proces ziet er als volgt uit:
 
-![Homomorphic Encryption processing diagram][heprocdiag]{:loading="lazy"} [^hall2018]
+![Homomorphic Encryption processing diagram][heprocdiag]{:loading="lazy" width="542" height="254"} [^hall2018]
 
 De getallen '7' en '5' worden cryptografisch omgewerkt naar onleesbare cijfertekst. Vervolgens worden deze cijferteksten bij elkaar opgeteld en is het cryptografisch mogelijk om het leesbare (*plaintext*) antwoord te achterhalen.
 {:.figcaption}
@@ -57,7 +60,9 @@ Doordat de versleutelde data nooit ontcijferd hoeft te worden, kunnen berekening
 
 ### Prestaties
 
+In een paper uit 2011 schrijven Gentry en Halevi [^gentry2011] dat simpele operaties seconden tot uren kunnen duren, afhankelijk van de veiligheidsgraad. De prestaties van FHE zijn dus niet bepaal efficiënt. Will en Ko [^will2015]. Het lijkt er echter niet op dat het prestatieprobleem sindsdien is opgelost. In een paper uit 2020 [^rahman2020] wordt nog steeds een groot verschil tussen het verwerken van ontcijferde en homomorf versleutelde data beschreven. Ook de blogpost van Ravital Solomon [^solomon2020] omschrijft problemen rondom de efficiëntie van FHE. Om deze reden is HE *momenteel* nog altijd een evenwichtsoefening tussen nut, veiligheid en prestaties. In onderstaande figuur is te zien hoe deze factoren zich verhouden. Er wordt natuurlijk actief gewerkt aan de prestaties van FHE en er worden ook echt grote vooruitgangen geboekt [^obrien2021]. Maar, zelfs wanneer er in de toekomst een extreem efficiënte FHE wordt gevonden, blijven er problemen [^armk2015]. Het is bijvoorbeeld niet mogelijk om een operatie op versleutelde data af te breken. Het volledige proces moet doorlopen worden, wat veel tijd in beslag neemt.
 
+![Veiligheid versus nut versus prestaties voor homomorfe encryptie][hevenn]{:loading="lazy" width="500"} [^will2015]
 
 ### Compromis
 
@@ -111,9 +116,14 @@ Dit artikel is gebaseerd op een onderzoeksrapport wat ik geschreven heb voor het
 <!-- Sources -->
 [^wiki2021]: "Homomorphic Encryption", *Wikipedia, The Free Encyclopedia*, 2021. [Online]. Available: [https://en.wikipedia.org/w/index.php?title=Homomorphic_encryption&oldid=1002934075](https://en.wikipedia.org/w/index.php?title=Homomorphic_encryption&oldid=1002934075).
 [^wiki2019]: "Wikipedia-bijdragers", *Wikipedia, de vrije encyclopedie*, 2019. [Online]. Available: [https://nl.wikipedia.org/w/index.php?title=Homomorfe_encryptie&oldid=54824375](https://nl.wikipedia.org/w/index.php?title=Homomorfe_encryptie&oldid=54824375).
-[^hall2018]: R. Hallman et al., "Building Applications with Homomorphic Encryption", 2018. [Online]. Available: [https://homomorphicencryption.org/wp-content/uploads/2018/10/CCS-HE-Tutorial-Slides.pdf](https://homomorphicencryption.org/wp-content/uploads/2018/10/CCS-HE-Tutorial-Slides.pdf).
-[^armk2015]: F. Armknecht et al., "A Guide to Fully Homomorphic Encryption", International Association for Cryptologic Research, 2015. [Online]. Available: [https://eprint.iacr.org/eprint-bin/getfile.pl?entry=2015/1192&version=20160914:161519&file=1192.pdf](https://eprint.iacr.org/eprint-bin/getfile.pl?entry=2015/1192&version=20160914:161519&file=1192.pdf).
+[^hall2018]: R. Hallman et al., "Building Applications with Homomorphic Encryption", 2018. Available: [https://homomorphicencryption.org/wp-content/uploads/2018/10/CCS-HE-Tutorial-Slides.pdf](https://homomorphicencryption.org/wp-content/uploads/2018/10/CCS-HE-Tutorial-Slides.pdf).
+[^armk2015]: F. Armknecht, C. Boyd, C. Carr, K. Gjøsteen, A. Jäschke, C.A. Reuter and M. Strand, "A Guide to Fully Homomorphic Encryption", *International Association for Cryptologic Research*, 2015. Available: [https://eprint.iacr.org/eprint-bin/getfile.pl?entry=2015/1192&version=20160914:161519&file=1192.pdf](https://eprint.iacr.org/eprint-bin/getfile.pl?entry=2015/1192&version=20160914:161519&file=1192.pdf).
 [^will2015]: M. Will and R. Ko, "A guide to homomorphic encryption", in *The Cloud Security Ecosystem*, R. Ko and R. Choo, Ed. 2015.
+[^gentry2011]: C. Gentry and S. Halevi, "Implementing Gentry's Fully-Homomorphic Encryption Scheme", *IBM Research*, 2011. Available: [https://eprint.iacr.org/2010/520.pdf](https://eprint.iacr.org/2010/520.pdf).
+[^rahman2020]: M.S. Rahman, I. Khalil, M. Atiquzzaman and X. Yi, "Towards privacy preserving AI based composition framework in edge networks using fully homomorphic encryption", *Engineering Applications of Artificial Intelligence*, vol. 94, 2020. Available: [https://www.sciencedirect.com/science/article/abs/pii/S0952197620301512](https://www.sciencedirect.com/science/article/abs/pii/S0952197620301512).
+[^solomon2020]: R. Solomon, "An Intro to Fully Homomorphic Encryption for Engineers", *NuCypher*, 2020. [Online]. Available: [https://blog.nucypher.com/an-engineers-guide-to-fully-homomorphic-encryption/](https://blog.nucypher.com/an-engineers-guide-to-fully-homomorphic-encryption/). [Accessed: 04-Feb-2021].
+[^obrien2021]: C. O'Brien, "IBM bets homomorphic encryption is ready to deliver stronger data security for early adopters", *VentureBeat*, 2021. [Online]. Available: [https://venturebeat.com/2021/04/03/ibm-bets-homomorphic-encryption-is-ready-to-deliver-stronger-data-security-for-early-adopters/](https://venturebeat.com/2021/04/03/ibm-bets-homomorphic-encryption-is-ready-to-deliver-stronger-data-security-for-early-adopters/). [Accessed: 7-Apr-2021].
 
 <!-- Pictures -->
 [heprocdiag]: /assets/blog/2021-02-23-what-is-homomorphic-encryption/heprocdiag.jpg
+[hevenn]: /assets/blog/2021-02-23-what-is-homomorphic-encryption/hevenn.png
