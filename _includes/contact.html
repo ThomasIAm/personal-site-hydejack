@@ -1,0 +1,92 @@
+<!--sse-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/assets/css/contact.css">
+
+<!-- Chatra {literal} -->
+<script>
+	window.ChatraSetup = {
+		colors: {
+			buttonText: '#ffffff', /* chat button text color */
+			buttonBg: '#f44336',    /* chat button background color */
+			clientBubbleBg: '#f22112'
+		}
+	};
+</script>
+
+<!-- <script data-iub-purposes="3" class="_iub_cs_activate-inline" type="text/plain"> -->
+<script>
+	(function (d, w, c) {
+		w.ChatraID = 'WAcPdJX5YGt6NEuHt';
+		var s = d.createElement('script');
+		w[c] = w[c] || function () {
+			(w[c].q = w[c].q || []).push(arguments);
+		};
+		s.async = true;
+		s.src = 'https://call.chatra.io/chatra.js';
+		if (d.head) d.head.appendChild(s);
+	})(document, window, 'Chatra');
+</script>
+<!-- /Chatra {/literal} -->
+
+<div class="outer mb6">
+	<div class="hovereffect">
+		<img src="/assets/contact/bg.JPG" alt="">
+		<div class="overlay">
+			<h2>My Socials</h2>
+			<div class="rotate">
+				<p class="group1">
+					<a href="https://twitter.com/thomasikdus" class="link">
+						<i class="fa fa-twitter"></i>
+					</a>
+					<a href="https://linkedin.com/in/thomasvandennieuwenhoff" class="link">
+						<i class="fa fa-linkedin"></i>
+					</a>
+				</p>
+				<hr>
+				<hr>
+				<p class="group2">
+					<a href="https://instagram.com/thomasikdus" class="link">
+						<i class="fa fa-instagram"></i>
+					</a>
+					<a href="https://github.com/ThomasIAm" class="link">
+						<i class="fa fa-github"></i>
+					</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="contact-form mb4 message" id="contact-form">
+	<h2>Send me an email!</h2>
+	<p>
+		I'll get back to you as soon as I can! If I don't within a reasonable amount of time, send me a DM on one of my
+		social media accounts.
+	</p>
+	<form name="contact" netlify netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+		<div class="form-row hidden">
+			<label>Don't fill this out if you're human: <input name="bot-field"></label>
+		</div>
+		<div class="form-row">
+			<div class="col col-sm-6">
+				<label for="cname">Name</label>
+				<input type="text" name="name" id="cname" class="form-control" placeholder="John Doe">
+			</div>
+			<div class="col col-sm-6">
+				<label for="cemail">Email</label>
+				<input type="email" name="email" id="cemail" class="form-control" placeholder="email@example.com">
+			</div>
+		</div>
+		<div class="form-row">
+			<div class="col col-sm-12">
+				<label for="cmessage">Message</label>
+				<textarea name="message" rows="10" id="cmessage" class="form-control"></textarea>
+			</div>
+		</div>
+		<div data-netlify-recaptcha="true"></div>
+		<div class="form-row">
+			<button class="btn btn-primary" type="submit">Send</button>
+		</div>
+	</form>
+</div>
+<!--/sse-->

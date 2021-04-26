@@ -56,12 +56,14 @@ menu:
     url: /blog/
   - title: Projects
     url: /projects
+  - title: Contact
+    url: /contact
   - title: Wiki
     url: https://wiki.tvdn.me
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal: # TODO: decide what to do with this
+legal:
   - title: PRIVACY
     url: /PRIVACY/
   - title: COOKIES
@@ -70,6 +72,8 @@ legal: # TODO: decide what to do with this
     url: /LICENSE/
   - title: NOTICE
     url: /NOTICE/
+  - title: CONTRIBUTE
+    url: https://github.com/ThomasIAm/personal-site-hydejack
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright: © 2020-2021. All rights reserved.
@@ -187,7 +191,7 @@ kramdown:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics: UA-168546854-2
+# google_analytics: UA-168546854-2
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
