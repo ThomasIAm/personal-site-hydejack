@@ -1,3 +1,30 @@
+<!--sse-->
+<!-- Chatra {literal} -->
+<script>
+	window.ChatraSetup = {
+		colors: {
+			buttonText: '#ffffff', /* chat button text color */
+			buttonBg: '#f44336',    /* chat button background color */
+			clientBubbleBg: '#f22112'
+		}
+	};
+</script>
+
+<!-- <script data-iub-purposes="3" class="_iub_cs_activate-inline" type="text/plain"> -->
+<script>
+	(function (d, w, c) {
+		w.ChatraID = 'WAcPdJX5YGt6NEuHt';
+		var s = d.createElement('script');
+		w[c] = w[c] || function () {
+			(w[c].q = w[c].q || []).push(arguments);
+		};
+		s.async = true;
+		s.src = 'https://call.chatra.io/chatra.js';
+		if (d.head) d.head.appendChild(s);
+	})(document, window, 'Chatra');
+</script>
+<!-- /Chatra {/literal} -->
+
 <style>
 	.link {
 		text-decoration: none;
@@ -1304,7 +1331,7 @@
 	</div>
 </div>
 
-<div class="contact-form mb4 message">
+<div class="contact-form mb4 message" id="contact-form">
 	<h2>Send me an email!</h2>
 	<p>
 		I'll get back to you as soon as I can! If I don't within a reasonable amount of time, send me a DM on one of my
@@ -1336,3 +1363,4 @@
 		</div>
 	</form>
 </div>
+<!--/sse-->
