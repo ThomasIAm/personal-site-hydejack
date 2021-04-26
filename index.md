@@ -1,15 +1,12 @@
 ---
 layout: about
-## ^^ maybe this is a PRO feature? ^^
-##title: Home
+title: Home
 image: /assets/global/social.png
 description: >
   My (Thomas van den Nieuwenhoff) personal website.
 hide_description: true
 cover: true
 ---
-
-# Home
 
 {% include about.md %}
 
@@ -25,6 +22,13 @@ Visit my [**blog**](/blog)
 Who doesn't like showing off the things they've made? On my projects page, I've selected a few of the things I made over the years. All of them have working demos, so definitely check them out!
 
 Visit my [**projects**](/projects)
+{:.read-more}
+
+## Contact
+
+If you would like to reach out to me, be sure to check out the contact page. I have a few social media accounts you could reach me at, but also a contact form.
+
+Visit my [**contact**](/contact) page
 {:.read-more}
 
 ## Wiki
