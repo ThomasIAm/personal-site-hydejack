@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 
 Misschien heb je er al wel eens van gehoord, maar waarschijnlijk zegt het je nog niets: *Homomorphic Encryption*. Kort samengevat is het een vorm van encryptie waarbij gegevens in een cijfertekst kunnen worden omgezet, terwijl ze geanalyseerd kunnen worden alsof ze nog in de oorspronkelijke vorm zijn. Klinkt interessant? Lees dan vooral verder!
 
-Geschatte leestijd: 3 minuten
+Geschatte leestijd: 2 minuten
 {:.faded}
 
 <!--more-->
@@ -47,13 +47,26 @@ Wanneer de encryptievorm volledig homomorf is (ook wel de "heilige graal" van en
 
 ![De verschillende FHE-generaties op een tijdlijn](/assets/blog/2021-02-23-what-is-homomorphic-encryption/fhehist.svg)
 
+HE heeft al een behoorlijke geschiedenis en is op verschillende manieren aangevlogen [^wiki2021]. Er is jarenlang geprobeerd om FHE werkend te krijgen, zonder succes [^vaik2012]. Totdat Craig Gentry bij IBM in oktober 2008 de eerste volledig homomorfe encryptie had bedacht.
+
+Wil je meer weten? Lees dan mijn [**blogpost over de geschiedenis van FHE**](2021-04-26-homomorphic-encryption-history.md).
+{:.read-more}
+
 ## De voor- en nadelen
 
+![De voor- en nadelen van FHE](/assets/blog/2021-02-23-what-is-homomorphic-encryption/fheprocon.svg)
 
+Een revolutionaire, maar nog jonge technologie als FHE kent natuurlijk veel voor- en nadelen. Een voorbeeld hiervan is het voordeel dat versleutelde data verwerkt kan worden, maar de prestaties van deze verwerking ordergroottes verwijdert zijn van wat we gewend zijn.
+
+Wil je meer weten? Lees dan mijn [**blogpost over de voor- en nadelen van FHE**](2021-04-26-homomorphic-encryption-pros-and-cons.md).
+{:.read-more}
 
 ## De bedrijfstoepassingen
 
+Er zijn een aantal partijen zoals IBM en Microsoft die flink aan het investeren zijn in FHE en haar toepassingen. IBM heeft FHE bijvoorbeeld bij een Braziliaanse bank geïmplementeerd om in een AI-project de privacy van hun klanten te beschermen. Microsoft gebruikt FHE onder andere op een interessante manier in hun Edge browser.
 
+Wil je meer weten? Lees dan mijn [**blogpost over de bedrijfstoepassingen van FHE**](2021-04-26-homomorphic-encryption-applications.md).
+{:.read-more}
 
 
 Dit artikel is gebaseerd op een onderzoeksrapport wat ik geschreven heb voor het project "Fully Homomorphic Encryption" in opdracht van SALT Cyber Security. [Onderzoeksrapport_Thomas van den Nieuwenhoff_S1124775_V1.0_Redacted.pdf](/assets/blog/2021-02-23-what-is-homomorphic-encryption/Onderzoeksrapport_Thomas van den Nieuwenhoff_S1124775_V1.0_Redacted.pdf)
@@ -65,6 +78,7 @@ Dit artikel is gebaseerd op een onderzoeksrapport wat ik geschreven heb voor het
 [^hall2018]: R. Hallman et al., "Building Applications with Homomorphic Encryption", 2018. Available: [https://homomorphicencryption.org/wp-content/uploads/2018/10/CCS-HE-Tutorial-Slides.pdf](https://homomorphicencryption.org/wp-content/uploads/2018/10/CCS-HE-Tutorial-Slides.pdf).
 [^armk2015]: F. Armknecht, C. Boyd, C. Carr, K. Gjøsteen, A. Jäschke, C.A. Reuter and M. Strand, "A Guide to Fully Homomorphic Encryption", *International Association for Cryptologic Research*, 2015. Available: [https://eprint.iacr.org/eprint-bin/getfile.pl?entry=2015/1192&version=20160914:161519&file=1192.pdf](https://eprint.iacr.org/eprint-bin/getfile.pl?entry=2015/1192&version=20160914:161519&file=1192.pdf).
 [^will2015]: M. Will and R. Ko, "A guide to homomorphic encryption", in *The Cloud Security Ecosystem*, R. Ko and R. Choo, Ed. 2015.
+[^vaik2012]: V. Vaikuntanathan, "Homomorphic Encryption: WHAT, WHY, and HOW", 2012. Available: [https://www.cs.toronto.edu/~vinodv/Homomorphic-MCSS.pptx](https://www.cs.toronto.edu/~vinodv/Homomorphic-MCSS.pptx).
 
 <!-- Pictures -->
 [heprocdiag]: /assets/blog/2021-02-23-what-is-homomorphic-encryption/heprocdiag.jpg
