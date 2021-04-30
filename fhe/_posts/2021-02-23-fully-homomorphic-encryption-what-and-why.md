@@ -16,6 +16,11 @@ Estimated reading time: 2 minutes
 
 <!--more-->
 
+> Fully Homomorphic Encryption is the holy grail of encryption.
+>
+> &mdash; <cite>Daniele Micciancio</cite>
+{:.lead}
+
 - Table of Contents
 {:toc}
 
@@ -36,6 +41,13 @@ An *evaluation key* is needed to apply functions to encrypted data [^armk2015]. 
 
 *Homomorphic Encryption* makes it possible to process data in encrypted form without having to decrypt it.
 {:.note title="Note"}
+
+<details>
+  <summary class="accordion">Want to know more?</summary>
+  <div style="position:relative;padding-top:56.25%;">
+    <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/5Mhbaeuv5fk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+  </div>
+</details>
 
 ### FHE vs. PHE
 
