@@ -22,13 +22,13 @@ Estimated reading time: 2 minutes
 ## What is *Homomorphic Encryption*?
 
 *Homomorphic Encryption*
-: The conversion of data into ciphertext that can be analysed and processed as if they were still in its original form [^wiki2021].
+: The conversion of data into ciphertext that can be analyzed and processed as if they were still in its original form [^wiki2021].
 
 *Homomorphic Encryption* (HE) therefore makes it possible to make (certain) calculations with *encrypted* text [^wiki2019]. This process looks like this:
 
 ![heprocdiag]{:loading="lazy" width="542" height="254"} [^hall2018]
 
-The numbers '7' and '5' are cryptographically converted into illegible numerical text. These number texts are then added together and it is cryptographically possible to find out the readable (*plaintext*) answer.
+The numbers '7' and '5' are cryptographically converted into illegible numerical text. These ciphertexts are then added together, and it is cryptographically possible to find out the readable (*plaintext*) answer.
 {:.figcaption}
 
 An *evaluation key* is needed to apply functions to encrypted data [^armk2015]. In addition, a secret key is needed with which data can be deciphered. These two operations are separated by two different keys security wise.
