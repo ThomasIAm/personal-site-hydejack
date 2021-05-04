@@ -394,18 +394,18 @@ jekyll_compose:
   default_front_matter:
     drafts:
       layout: post
-      description: >
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
+      title: My new draft!
+      description: A short ~160 character description of your post for search engines, social media previews, etc.
       image:
         path: /assets/global/img/bg/sidebar-bg-3000x1688.webp
+      author: tvdn
     posts:
       layout: post
-      description: >
-        A short ~160 character description of your post for search engines,
-        social media previews, etc.
+      title: My new post!
+      description: A short ~160 character description of your post for search engines, social media previews, etc.
       image:
         path: /assets/global/img/bg/sidebar-bg-3000x1688.webp
+      author: tvdn
     projects:
       layout: project
       description: >

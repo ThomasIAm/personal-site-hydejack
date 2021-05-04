@@ -5,8 +5,8 @@ sitemap: false
 
 # Privacy Policy of **tvdn.me**
 
-* this list will be replaced by the toc
-{:toc .large-only}
+- this list will be replaced by the toc
+  {:toc .large-only}
 
 This Application collects some Personal Data from its Users.
 
