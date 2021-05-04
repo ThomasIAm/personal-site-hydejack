@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fully Homomorphic Encryption: what and why?"
-date: 2021-04-05 12:52 +0200
+date: 2021-05-04 12:52 +0200
 image: /assets/blog/2021-02-23-fully-homomorphic-encryption-what-and-why/cover.svg
 description: >
   Homomorphic Encryption is considered the holy grail of encryption, but what is it and how can it be used?
