@@ -10,6 +10,13 @@ cover: true
 
 {% include about.md %}
 
+## About
+
+Do you want to know more about me? Make sure to visit my about page!
+
+Visit my [**about**](/about) page
+{:.read-more}
+
 ## Blog
 
 My first blog post hasn't been written yet, but I will at some point. Some time ago, I felt the urge to have a place where I could blog about something. There's definitely something in the works, but it needs some more time.
