@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Fully Homomorphic Encryption: what and why?"
-date: 2021-02-23 02:00 +0200
-image: /assets/blog/2021-02-23-fully-homomorphic-encryption-what-and-why/cover.svg
+date: 2021-05-04 12:52 +0200
+image: /assets/blog/2021-05-04-fully-homomorphic-encryption-what-and-why/cover.svg
 description: >
   Homomorphic Encryption is considered the holy grail of encryption, but what is it and how can it be used?
 author: tvdn
@@ -94,10 +94,10 @@ This article is based on a [research report] I wrote for the project "Fully Homo
 [^vaik2012]: V. Vaikuntanathan, "Homomorphic Encryption: WHAT, WHY, and HOW", 2012. Available: [https://www.cs.toronto.edu/~vinodv/Homomorphic-MCSS.pptx](https://www.cs.toronto.edu/~vinodv/Homomorphic-MCSS.pptx).
 
 <!-- Pictures -->
-[heprocdiag]: /assets/blog/2021-02-23-fully-homomorphic-encryption-what-and-why/heprocdiag.jpg
-[fhehist]: /assets/blog/2021-02-23-fully-homomorphic-encryption-what-and-why/fhehist.svg
-[fheprocon]: /assets/blog/2021-02-23-fully-homomorphic-encryption-what-and-why/fheprocon.svg
+[heprocdiag]: /assets/blog/2021-05-04-fully-homomorphic-encryption-what-and-why/heprocdiag.jpg
+[fhehist]: /assets/blog/2021-05-04-fully-homomorphic-encryption-what-and-why/fhehist.svg
+[fheprocon]: /assets/blog/2021-05-04-fully-homomorphic-encryption-what-and-why/fheprocon.svg
 
 <!-- Links -->
-[research report]: /assets/blog/2021-02-23-fully-homomorphic-encryption-what-and-why/Onderzoeksrapport_Thomas van den Nieuwenhoff_S1124775_V1.0_Redacted.pdf
+[research report]: /assets/blog/2021-05-04-fully-homomorphic-encryption-what-and-why/Onderzoeksrapport_Thomas van den Nieuwenhoff_S1124775_V1.0_Redacted.pdf
 [SALT Cyber Security]: https://salt-security.com/
