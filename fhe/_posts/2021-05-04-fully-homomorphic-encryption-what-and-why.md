@@ -2,7 +2,7 @@
 layout: post
 title: "Fully Homomorphic Encryption: what and why?"
 date: 2021-05-04 12:52 +0200
-image: /assets/blog/2021-02-23-fully-homomorphic-encryption-what-and-why/cover.svg
+image: /assets/blog/2021-05-04-fully-homomorphic-encryption-what-and-why/cover.svg
 description: >
   Homomorphic Encryption is considered the holy grail of encryption, but what is it and how can it be used?
 author: tvdn
@@ -15,6 +15,8 @@ Estimated reading time: 2 minutes
 {:.faded}
 
 <!--more-->
+
+This post is part 1 of the [Fully Homomorphic Encryption] series.
 
 > Fully Homomorphic Encryption is the holy grail of encryption.
 >
@@ -62,7 +64,7 @@ HE can use different encryption forms, which can perform different types of comp
 
 HE already has quite a history and has been approached in different ways [^wiki2021]. There has been years of trying to get FHE working, without success [^vaik2012]. Until Craig Gentry came up with the first fully homomorphic encryption at IBM in October 2008.
 
-Want to know more? Then read my (upcoming) [**blog post about the history of FHE**](){:.btn .disabled}.
+Want to know more? Then read my [**blog post about the history of FHE**](/fhe/2021-05-28-homomorphic-encryption-history).
 {:.read-more}
 
 ## The pros and cons
@@ -71,14 +73,14 @@ Want to know more? Then read my (upcoming) [**blog post about the history of FHE
 
 A revolutionary, but still young technology like FHE of course has many advantages and disadvantages. An example of this is the advantage that encrypted data can be processed, but the performance of this process is leaps behind what we are used to.
 
-Want to know more? Then read my [**blog post about the pros and cons of FHE**](){:.btn .disabled}.
+Want to know more? Then read my (upcoming) [**blog post about the pros and cons of FHE**](){:.btn .disabled}.
 {:.read-more}
 
 ## The business applications
 
 There are a number of parties such as IBM and Microsoft that are investing heavily in FHE and its applications. IBM, for example, has implemented FHE at a Brazilian bank to protect the privacy of their customers in an AI project. Among other things, Microsoft uses FHE in an interesting way in their Edge browser.
 
-Want to know more? Then read my [**blog post about FHE's business applications**](){:.btn .disabled}.
+Want to know more? Then read my (upcoming) [**blog post about FHE's business applications**](){:.btn .disabled}.
 {:.read-more}
 
 
@@ -94,10 +96,11 @@ This article is based on a [research report] I wrote for the project "Fully Homo
 [^vaik2012]: V. Vaikuntanathan, "Homomorphic Encryption: WHAT, WHY, and HOW", 2012. Available: [https://www.cs.toronto.edu/~vinodv/Homomorphic-MCSS.pptx](https://www.cs.toronto.edu/~vinodv/Homomorphic-MCSS.pptx).
 
 <!-- Pictures -->
-[heprocdiag]: /assets/blog/2021-02-23-fully-homomorphic-encryption-what-and-why/heprocdiag.jpg
-[fhehist]: /assets/blog/2021-02-23-fully-homomorphic-encryption-what-and-why/fhehist.svg
-[fheprocon]: /assets/blog/2021-02-23-fully-homomorphic-encryption-what-and-why/fheprocon.svg
+[heprocdiag]: /assets/blog/2021-05-04-fully-homomorphic-encryption-what-and-why/heprocdiag.jpg
+[fhehist]: /assets/blog/2021-05-04-fully-homomorphic-encryption-what-and-why/fhehist.svg
+[fheprocon]: /assets/blog/2021-05-04-fully-homomorphic-encryption-what-and-why/fheprocon.svg
 
 <!-- Links -->
-[research report]: /assets/blog/2021-02-23-fully-homomorphic-encryption-what-and-why/Onderzoeksrapport_Thomas van den Nieuwenhoff_S1124775_V1.0_Redacted.pdf
+[research report]: /assets/blog/2021-05-04-fully-homomorphic-encryption-what-and-why/Onderzoeksrapport_Thomas van den Nieuwenhoff_S1124775_V1.0_Redacted.pdf
 [SALT Cyber Security]: https://salt-security.com/
+[Fully Homomorphic Encryption]: /fhe
