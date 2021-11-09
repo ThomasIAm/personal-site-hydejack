@@ -29,4 +29,10 @@ hide_description: true
     <div data-iframe-width="150" data-iframe-height="260" data-share-badge-id="352815b1-a44e-4e0f-8f47-91ffeeda86ae" data-share-badge-host="https://www.credly.com" class="item"></div>
     <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
   </div>
+  
+  <div class="item">
+    <a href="https://academy.mendix.com/link/certifications/23/rapid" class="no-deco">
+      <img src="/assets/about/rapid.png"  style="max-height: 200px">
+    </a>
+  </div>
 </div>
