@@ -1,9 +1,7 @@
 {
 	"grammarly.overrides": [
 		{
-			"files": [
-				"**/blog/_posts/2021-02-23-what-is-homomorphic-encryption.md"
-			],
+			"files": ["**/blog/_posts/2021-02-23-what-is-homomorphic-encryption.md"],
 			"config": {
 				"audience": "knowledgeable",
 				"dialect": "american",
@@ -12,5 +10,6 @@
 				"goals": []
 			}
 		}
-	]
+	],
+	"markdownlint.ignore": ["no-inline-html"]
 }

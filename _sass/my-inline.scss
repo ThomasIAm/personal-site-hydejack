@@ -43,3 +43,11 @@
 	margin: 2%; /* (100-32*3)/2 */
 	position: relative;
 }
+
+.no-deco {
+	text-decoration: none;
+}
+
+.no-deco::after {
+	display: none;
+}
