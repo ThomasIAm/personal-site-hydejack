@@ -7,6 +7,13 @@ description: >
   Homomorphic Encryption is considered the holy grail of encryption, but what is it and how can it be used?
 author: tvdn
 excerpt_separator: <!--more-->
+ogImage:
+  title: "**Fully Homomorphic Encryption**:"
+  subtitle: "what and why?"
+  imageUrl: "/assets/global/img/logo/logo.svg"
+  background: "white"
+  fontColor: "#333"
+  fontSize: "100%"
 ---
 
 You may have heard of it, but it probably doesn't mean anything to you yet: *Homomorphic Encryption*. In short, it is a form of encryption in which data can be converted into a ciphertext, while they can be analyzed as if they were still in their original form. Sounds interesting? Then read on!
