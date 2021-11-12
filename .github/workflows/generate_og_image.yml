@@ -35,7 +35,7 @@ jobs:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         with:
           # Path to place generated assets
-          path: /assets/og-image/ # optional, default is demo/
+          path: assets/og-image/ # optional, default is demo/
           # commit message to be shown when adding image
           commitMsg: Auto Generate OG Image # optional, default is just some wholesome content. yo all!
           # background color for image
