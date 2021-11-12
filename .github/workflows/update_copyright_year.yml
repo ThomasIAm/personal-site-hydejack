@@ -33,7 +33,7 @@ jobs:
           # [Learn more about creating and using encrypted secrets](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
           #
           # Required: true
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
           # A path or wildcard pattern specifying files to transform. Multiple paths can be
           # specified using literal styled YAML.
