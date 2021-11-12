@@ -30,6 +30,9 @@ jobs:
         # You may pin to the exact commit or the version.
         # uses: agneym/generate-og-image@01529197586421cbc6464fa9c969818846603511
         uses: agneym/generate-og-image@1.0.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_CONTEXT: ${{ toJson(github) }}
         with:
           # Path to place generated assets
           path: /assets/og-image/ # optional, default is demo/
