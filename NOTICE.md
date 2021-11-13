@@ -4,7 +4,7 @@ sitemap: false
 image: https://tvdn-og-image.vercel.app/Notice.png?md=1&fontSize=100px
 title: Notice
 description: >
-  This is the notice for tvdn.me.
+  This is the Notice for tvdn.me.
 hide_description: true
 ---
 
