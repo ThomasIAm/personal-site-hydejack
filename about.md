@@ -4,6 +4,7 @@ image: https://tvdn-og-image.vercel.app/**About**%20Me.png?md=1&fontSize=100px&i
 description: >
   I am an inquisitive student with a passion for ICT. I already have a lot of experience and am always looking for ways to increase my knowledge.
 hide_description: true
+title: About Me
 ---
 
 {% include about.md %}

@@ -8,8 +8,6 @@ description: >
 hide_description: true
 ---
 
-# LICENSE
-
 * this list will be replaced by the toc
 {:toc .large-only}
 

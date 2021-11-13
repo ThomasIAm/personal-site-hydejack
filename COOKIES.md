@@ -8,8 +8,6 @@ description: >
 hide_description: true
 ---
 
-# Cookie Policy for tvdn.me
-
 * this list will be replaced by the toc
 {:toc .large-only}
 
