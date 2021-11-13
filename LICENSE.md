@@ -1,6 +1,7 @@
 ---
 layout: page
 sitemap: false
+image: https://tvdn-og-image.vercel.app/License.png?md=1&fontSize=100px
 ---
 
 # LICENSE
