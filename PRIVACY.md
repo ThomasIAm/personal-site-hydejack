@@ -2,6 +2,10 @@
 layout: page
 sitemap: false
 image: https://tvdn-og-image.vercel.app/**Privacy**%20Policy.png?md=1&fontSize=100px
+title: Privacy Policy
+description: >
+  This is the Privacy Policy for tvdn.me
+hide_description: true
 ---
 
 # Privacy Policy of **tvdn.me**
