@@ -2,11 +2,11 @@
 
 name: Copyright year updater
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on the first minute of the new year
   schedule:
-    - cron: "0 0 1 1 *"
+    - cron: '0 0 1 1 *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -72,7 +72,7 @@ jobs:
           # returns. Supports substituting variable {{currentYear}}.
           #
           # Required: false
-          # Default: 
+          # Default:
           commitBody: ''
 
           # The git author name, used when committing changes to the repository.
@@ -98,18 +98,18 @@ jobs:
           # {{currentYear}}.
           #
           # Required: false
-          # Default: 
+          # Default:
           prBody: ''
 
           # Comma-separated list with usernames of people to assign when pull request is
           # created.
           #
           # Required: false
-          # Default: 
+          # Default:
           assignees: 'ThomasIAm'
 
           # Comma-separated list of labels to add when pull request is created.
           #
           # Required: false
-          # Default: 
+          # Default:
           labels: ''
