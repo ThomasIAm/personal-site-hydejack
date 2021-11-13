@@ -1,6 +1,7 @@
 ---
 layout: page
 sitemap: false
+image: https://tvdn-og-image.vercel.app/**Privacy**%20Policy.png?md=1&fontSize=100px
 ---
 
 # Privacy Policy of **tvdn.me**
