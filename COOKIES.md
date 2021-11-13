@@ -2,6 +2,10 @@
 layout: page
 sitemap: false
 image: https://tvdn-og-image.vercel.app/**Cookie**%20Policy.png?md=1&fontSize=100px
+title: Cookie Policy
+description: >
+  This is the Cookie Policy for tvdn.me.
+hide_description: true
 ---
 
 # Cookie Policy for tvdn.me
