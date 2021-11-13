@@ -2,6 +2,10 @@
 layout: page
 sitemap: false
 image: https://tvdn-og-image.vercel.app/License.png?md=1&fontSize=100px
+title: License
+description: >
+  This is the license for tvdn.me.
+hide_description: true
 ---
 
 # LICENSE
