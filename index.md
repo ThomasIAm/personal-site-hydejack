@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Home
-image: /assets/global/social.png
+image: /assets/global/img/social.png
 description: >
   My (Thomas van den Nieuwenhoff) personal website.
 hide_description: true
