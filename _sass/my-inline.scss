@@ -1,53 +1,235 @@
 // You can add CSS rules here that will be inlined into each document.
+
+// Sidebar
 .sidebar a {
-	text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
+  text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
 }
 
 .sidebar-bg {
-	filter: blur(2px);
-	-webkit-filter: blur(2px);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .sidebar-social {
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* Spotify Playing Now */
 .sidebar-spotify {
-	.sidebar-spotify-link::after {
-		display: none;
-	}
+  .sidebar-spotify-link::after {
+    display: none;
+  }
 
-	.sidebar-spotify-link {
-		img {
-			border-bottom-width: 2px;
-			border-bottom-style: solid;
-			border-bottom-color: rgba(255, 255, 255, 0.2);
-		}
-	}
+  .sidebar-spotify-link {
+    img {
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      border-bottom-color: rgba(255, 255, 255, 0.2);
+    }
+  }
 }
 
+// General
 .container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	background-color: var(--gray-bg);
-	align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: var(--gray-bg);
+  align-items: center;
 }
 
 .item {
-	margin: 2%; /* (100-32*3)/2 */
-	position: relative;
+  margin: 2%; /* (100-32*3)/2 */
+  position: relative;
 }
 
 .no-deco {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .no-deco::after {
-	display: none;
+  display: none;
+}
+
+// Flip-box
+.flip-box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.flip-box-row {
+  width: 100%;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1124px) {
+  .flip-box-column {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1123px) and (min-width: 1024px) {
+  .flip-box-column {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 864px) {
+  .flip-box-column {
+    width: 50%;
+  }
+}
+
+@media (max-width: 863px) {
+  .flip-box-column {
+    width: 100%;
+  }
+}
+
+.flip-box-column,
+.flip-box-column-wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 1px;
+}
+
+.flip-box-column-wrap {
+  padding: 10px;
+  width: 100%;
+}
+
+.flip-box-widget-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.flip-box-element {
+  width: 100%;
+  position: relative;
+}
+
+.icon-wrapper {
+  margin-bottom: 0;
+}
+
+.icon {
+  color: #fff;
+  border-color: #fff;
+  font-size: 90px;
+  display: inline-block;
+  line-height: 1;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.icon svg {
+  fill: #fff;
+  border-color: #fff;
+  transform: rotate(0deg);
+  height: 1em;
+  position: relative;
+  display: block;
+}
+
+.flip-box__layer__title {
+  font-weight: 600;
+  line-height: 1;
+  font-size: 21px;
+}
+
+.flip-box__layer__description:not(:last-child),
+.flip-box__layer__title:not(:last-child) {
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.flip-box__layer__description {
+  font-size: 14px;
+}
+
+.flip-card {
+  height: 280px;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+.flip-card-overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  text-align: center;
+  padding: 35px;
+  color: #fff;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.flip-box-column:hover .flip-card {
+  transform: rotateX(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #047b43;
+  color: white;
+}
+
+.con {
+  background-color: #8a0000;
+}
+
+.flip-card-back {
+  background-color: #07545a;
+  color: white;
+  transform: rotateX(180deg);
 }

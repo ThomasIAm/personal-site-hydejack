@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Fully Homomorphic Encryption: the history"
-image: /assets/blog/2021-05-28-homomorphic-encryption-history/cover.svg
+title: 'Fully Homomorphic Encryption: the history'
+date: 2021-05-27 11:12 +0200
+image: /assets/blog/2021-05-27-homomorphic-encryption-history/cover.svg
 description: Fully Homomorphic Encryption isn't something that was cooked up by a cryptographer yesterday. How did we get where we are today?
 author: tvdn
-excerpt_separator: "<!--more-->"
+excerpt_separator: '<!--more-->'
 ---
 
 HE already has a considerable history and has been approached in different ways. For years, attempts have been made to get FHE to work without success. Until Craig Gentry at IBM came up with the first completely homomorphic encryption in October 2008.
@@ -90,44 +91,47 @@ Because CKKS works with rounded values, instead of exact values, it is possible 
 FHE is currently in its fourth generation. This mainly focuses on practical applications and broadening the applicability.
 {:.note title="Note"}
 
-
 This article is based on a [research report] I wrote for the project "Fully Homomorphic Encryption" commissioned by [SALT Cyber Security]. You can also read this blog post (in Dutch) on their website at [https://salt-security.com/nieuws/fully-homomorphic-encryption-de-geschiedenis/](https://salt-security.com/nieuws/fully-homomorphic-encryption-de-geschiedenis/).
 {:.note title="Comment"}
 
 <!-- Sources -->
-[^wiki2021]: Wikipedia contributors, "Homomorphic Encryption", *Wikipedia, The Free Encyclopedia*, 2021. [Online]. Available: [https://en.wikipedia.org/w/index.php?title=Homomorphic_encryption&oldid=1002934075](https://en.wikipedia.org/w/index.php?title=Homomorphic_encryption&oldid=1002934075).
+
+[^wiki2021]: Wikipedia contributors, "Homomorphic Encryption", _Wikipedia, The Free Encyclopedia_, 2021. [Online]. Available: [https://en.wikipedia.org/w/index.php?title=Homomorphic_encryption&oldid=1002934075](https://en.wikipedia.org/w/index.php?title=Homomorphic_encryption&oldid=1002934075).
 [^vaik2012]: V. Vaikuntanathan, "Homomorphic Encryption: WHAT, WHY, and HOW", 2012. Available: [https://www.cs.toronto.edu/~vinodv/Homomorphic-MCSS.pptx](https://www.cs.toronto.edu/~vinodv/Homomorphic-MCSS.pptx).
 [^sander1999]: T. Sander, A.L. Young, M. Yung, "Non-Interactive CryptoComputing For NC1", pp. 554-566, 1999.
-[^boneh2005]: D. Boneh, E.J. Goh, K. Nissim, "Evaluating 2-DNF Formulas on Ciphertexts", *Theory of Cryptography Conference*, 2005. Available: [https://link.springer.com/content/pdf/10.1007/978-3-540-30576-7_18.pdf](https://link.springer.com/content/pdf/10.1007/978-3-540-30576-7_18.pdf).
-[^ishai2007]: Y. Ishai, A. Paskin, "Evaluating Branching Programs on Encrypted Data", *Theory of Cryptography*, 2007. Available: [https://link.springer.com/content/pdf/10.1007%2F978-3-540-70936-7_31.pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-540-70936-7_31.pdf).
-[^will2015]: M. Will and R. Ko, "A guide to homomorphic encryption", in *The Cloud Security Ecosystem*, R. Ko and R. Choo, Ed. 2015.
-[^rivest1978]: R.L. Rivest, L. Adleman, M.L. Dertouzos, "On Data Banks and Privacy Homomorphisms", *Foundations of Secure Computation*, 1978. Available: [https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=EA7BED6BE588981303D0EEC5C2EDDB0B?doi=10.1.1.500.3989&rep=rep1&type=pdf](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=EA7BED6BE588981303D0EEC5C2EDDB0B?doi=10.1.1.500.3989&rep=rep1&type=pdf).
-[^gentry2009]: C. Gentry, "Fully Homomorphic Encryption Using Ideal Lattices", *41st ACM Symposium on Theory of Computing (STOC)*, 2009. Available: [https://www.cs.cmu.edu/~odonnell/hits09/gentry-homomorphic-encryption.pdf](https://www.cs.cmu.edu/~odonnell/hits09/gentry-homomorphic-encryption.pdf).
+[^boneh2005]: D. Boneh, E.J. Goh, K. Nissim, "Evaluating 2-DNF Formulas on Ciphertexts", _Theory of Cryptography Conference_, 2005. Available: [https://link.springer.com/content/pdf/10.1007/978-3-540-30576-7_18.pdf](https://link.springer.com/content/pdf/10.1007/978-3-540-30576-7_18.pdf).
+[^ishai2007]: Y. Ishai, A. Paskin, "Evaluating Branching Programs on Encrypted Data", _Theory of Cryptography_, 2007. Available: [https://link.springer.com/content/pdf/10.1007%2F978-3-540-70936-7_31.pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-540-70936-7_31.pdf).
+[^will2015]: M. Will and R. Ko, "A guide to homomorphic encryption", in _The Cloud Security Ecosystem_, R. Ko and R. Choo, Ed. 2015.
+[^rivest1978]: R.L. Rivest, L. Adleman, M.L. Dertouzos, "On Data Banks and Privacy Homomorphisms", _Foundations of Secure Computation_, 1978. Available: [https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=EA7BED6BE588981303D0EEC5C2EDDB0B?doi=10.1.1.500.3989&rep=rep1&type=pdf](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=EA7BED6BE588981303D0EEC5C2EDDB0B?doi=10.1.1.500.3989&rep=rep1&type=pdf).
+[^gentry2009]: C. Gentry, "Fully Homomorphic Encryption Using Ideal Lattices", _41st ACM Symposium on Theory of Computing (STOC)_, 2009. Available: [https://www.cs.cmu.edu/~odonnell/hits09/gentry-homomorphic-encryption.pdf](https://www.cs.cmu.edu/~odonnell/hits09/gentry-homomorphic-encryption.pdf).
 [^gentry2011]: C. Gentry, S. Halevi, "Implementing Gentry's Fully-Homomorphic Encryption Scheme", 2011. [Online]. Available: [https://eprint.iacr.org/2010/520.pdf](https://eprint.iacr.org/2010/520.pdf).
-[^dijk2010]: M. van Dijk, C. Gentry, S. Halevi, V. Vaikuntanathan, "Fully Homomorphic Encryption over the Integers", *Eurocrypt 2010*, 2010. Available: [https://eprint.iacr.org/2009/616.pdf].
-[^brak2011a]: Z. Brakerski, C. Gentry, V. Vaikuntanathan, "Fully Homomorphic Encryption without Bootstrapping", *ITCS 2012*, 2011. Available: [https://eprint.iacr.org/2011/277.pdf](https://eprint.iacr.org/2011/277.pdf).
-[^brak2011b]: Z. Brakerski, V. Vaikuntanathan, "Efficient Fully Homomorphic Encryption from (Standard) LWE", *FOCS 2011*, 2011. Available: [https://eprint.iacr.org/2011/344.pdf](https://eprint.iacr.org/2011/344.pdf).
-[^lopez2013]: A. Lopez-Alt, E. Tromer, V. Vaikuntanathan, "On-the-Fly Multiparty Computation on the Cloud via Multikey Fully Homomorphic Encryption", *STOC 2012*, 2013. Available: [https://eprint.iacr.org/2013/094.pdf](https://eprint.iacr.org/2013/094.pdf).
-[^wiki2020]: Wikipedia contributors, "NTRU", *Wikipedia, The Free Encyclopedia*, 2020. [Online]. Available: [https://en.wikipedia.org/w/index.php?title=NTRU&oldid=997278152](https://en.wikipedia.org/w/index.php?title=NTRU&oldid=997278152).
+[^dijk2010]: M. van Dijk, C. Gentry, S. Halevi, V. Vaikuntanathan, "Fully Homomorphic Encryption over the Integers", _Eurocrypt 2010_, 2010. Available: [https://eprint.iacr.org/2009/616.pdf].
+[^brak2011a]: Z. Brakerski, C. Gentry, V. Vaikuntanathan, "Fully Homomorphic Encryption without Bootstrapping", _ITCS 2012_, 2011. Available: [https://eprint.iacr.org/2011/277.pdf](https://eprint.iacr.org/2011/277.pdf).
+[^brak2011b]: Z. Brakerski, V. Vaikuntanathan, "Efficient Fully Homomorphic Encryption from (Standard) LWE", _FOCS 2011_, 2011. Available: [https://eprint.iacr.org/2011/344.pdf](https://eprint.iacr.org/2011/344.pdf).
+[^lopez2013]: A. Lopez-Alt, E. Tromer, V. Vaikuntanathan, "On-the-Fly Multiparty Computation on the Cloud via Multikey Fully Homomorphic Encryption", _STOC 2012_, 2013. Available: [https://eprint.iacr.org/2013/094.pdf](https://eprint.iacr.org/2013/094.pdf).
+[^wiki2020]: Wikipedia contributors, "NTRU", _Wikipedia, The Free Encyclopedia_, 2020. [Online]. Available: [https://en.wikipedia.org/w/index.php?title=NTRU&oldid=997278152](https://en.wikipedia.org/w/index.php?title=NTRU&oldid=997278152).
 [^fan2012]: J. Fan, F. Vercauteren, "Somewhat Practical Fully Homomorphic Encryption", 2012. [Online]. Available: [https://eprint.iacr.org/2012/144.pdf](https://eprint.iacr.org/2012/144.pdf).
-[^brak2012]: Z. Brakerski, "Fully Homomorphic Encryption without Modulus Switching from Classical GapSVP", *CRYPTO 2012*, 2012. Available: [https://eprint.iacr.org/2012/078.pdf](https://eprint.iacr.org/2012/078.pdf).
-[^bos2013]: J. Bos, K. Lauter, J. Loftus, M. Naehrig, "Improved Security for a Ring-Based Fully Homomorphic Encryption Scheme", *IMACC 2013*, 2013. Available: [https://eprint.iacr.org/2013/075.pdf](https://eprint.iacr.org/2013/075.pdf).
-[^alb2016]: M. Albrecht, S. Bai, L. Ducas, "A subfield lattice attack on overstretched NTRU assumptions", *CRYPTO 2016*, 2016. Available: [https://eprint.iacr.org/2016/127.pdf](https://eprint.iacr.org/2016/127.pdf).
-[^cheon2016]: J.H. Cheon, J. Jeong, C. Lee, "An algorithm for NTRU problems and cryptanalysis of the GGH multilinear map without a low-level encoding of zero", *LMS Journal of Computation and Mathematics*, vol. 19, no. A, pp. 255-266, 2016. Available: [https://www.cambridge.org/core/journals/lms-journal-of-computation-and-mathematics/article/an-algorithm-for-ntru-problems-and-cryptanalysis-of-the-ggh-multilinear-map-without-a-lowlevel-encoding-of-zero/230ECFEEE6AF4D8027FF3E13998D560C](https://www.cambridge.org/core/journals/lms-journal-of-computation-and-mathematics/article/an-algorithm-for-ntru-problems-and-cryptanalysis-of-the-ggh-multilinear-map-without-a-lowlevel-encoding-of-zero/230ECFEEE6AF4D8027FF3E13998D560C).
-[^gentry2013]: C. Gentry, A. Sahai, B. Waters, "Homomorphic Encryption from Learning with Errors: Conceptually-Simpler, Asymptotically-Faster, Attribute-Based", *CRYPTO 2013*, 2013. Available: [https://eprint.iacr.org/2013/340.pdf](https://eprint.iacr.org/2013/340.pdf).
-[^brak2013]: Z. Brakerski, V. Vaikuntanathan, "Lattice-Based FHE as Secure as PKE", *ITCS 2014*, 2013. Available: [https://eprint.iacr.org/2013/541.pdf](https://eprint.iacr.org/2013/541.pdf).
-[^alp2014]: J. Alperin-Sheriff, C. Peikert, "Faster Bootstrapping with Polynomial Error", *CRYPTO 2014*, 2014. Available: [https://eprint.iacr.org/2014/094.pdf](https://eprint.iacr.org/2014/094.pdf).
+[^brak2012]: Z. Brakerski, "Fully Homomorphic Encryption without Modulus Switching from Classical GapSVP", _CRYPTO 2012_, 2012. Available: [https://eprint.iacr.org/2012/078.pdf](https://eprint.iacr.org/2012/078.pdf).
+[^bos2013]: J. Bos, K. Lauter, J. Loftus, M. Naehrig, "Improved Security for a Ring-Based Fully Homomorphic Encryption Scheme", _IMACC 2013_, 2013. Available: [https://eprint.iacr.org/2013/075.pdf](https://eprint.iacr.org/2013/075.pdf).
+[^alb2016]: M. Albrecht, S. Bai, L. Ducas, "A subfield lattice attack on overstretched NTRU assumptions", _CRYPTO 2016_, 2016. Available: [https://eprint.iacr.org/2016/127.pdf](https://eprint.iacr.org/2016/127.pdf).
+[^cheon2016]: J.H. Cheon, J. Jeong, C. Lee, "An algorithm for NTRU problems and cryptanalysis of the GGH multilinear map without a low-level encoding of zero", _LMS Journal of Computation and Mathematics_, vol. 19, no. A, pp. 255-266, 2016. Available: [https://www.cambridge.org/core/journals/lms-journal-of-computation-and-mathematics/article/an-algorithm-for-ntru-problems-and-cryptanalysis-of-the-ggh-multilinear-map-without-a-lowlevel-encoding-of-zero/230ECFEEE6AF4D8027FF3E13998D560C](https://www.cambridge.org/core/journals/lms-journal-of-computation-and-mathematics/article/an-algorithm-for-ntru-problems-and-cryptanalysis-of-the-ggh-multilinear-map-without-a-lowlevel-encoding-of-zero/230ECFEEE6AF4D8027FF3E13998D560C).
+[^gentry2013]: C. Gentry, A. Sahai, B. Waters, "Homomorphic Encryption from Learning with Errors: Conceptually-Simpler, Asymptotically-Faster, Attribute-Based", _CRYPTO 2013_, 2013. Available: [https://eprint.iacr.org/2013/340.pdf](https://eprint.iacr.org/2013/340.pdf).
+[^brak2013]: Z. Brakerski, V. Vaikuntanathan, "Lattice-Based FHE as Secure as PKE", _ITCS 2014_, 2013. Available: [https://eprint.iacr.org/2013/541.pdf](https://eprint.iacr.org/2013/541.pdf).
+[^alp2014]: J. Alperin-Sheriff, C. Peikert, "Faster Bootstrapping with Polynomial Error", _CRYPTO 2014_, 2014. Available: [https://eprint.iacr.org/2014/094.pdf](https://eprint.iacr.org/2014/094.pdf).
 [^ducas2014]: L. Ducas, D. Micciancio, "FHEW: A Fully Homomorphic Encryption library", 2014. [Online]. Available: [https://github.com/lducas/FHEW/tree/0959af8daf6635a5e69013f6db7120c6d39e2319](https://github.com/lducas/FHEW/tree/0959af8daf6635a5e69013f6db7120c6d39e2319).
 [^carpov2016]: S. Carpov, I. Chillotti, N. Gama, M. Georgieva, M. Izabachene, "TFHE: Fast Fully Homomorphic Encryption Library", 2016. [Online]. Available: [https://tfhe.github.io/tfhe/](https://tfhe.github.io/tfhe/). [Accessed 9 February 2021].
-[^gama2014]: N. Gama, M. Izabachene, P.Q. Nguyen, X. Xie, "Structural Lattice Reduction: Generalized Worst-Case to Average-Case Reductions and Homomorphic Cryptosystems", *EUROCRYPT 2016*, 2014. Available: [https://eprint.iacr.org/2014/283.pdf](https://eprint.iacr.org/2014/283.pdf).
-[^cheon2017]: J.H. Cheon, A. Kim, M. Kim, Y. Song, "Homomorphic Encryption for Arithmetic of Approximate Numbers", *ASIACRYPT 2017*, pp. 409-437, 2017. Available: [https://link.springer.com/content/pdf/10.1007%2F978-3-319-70694-8_15.pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-70694-8_15.pdf).
+[^gama2014]: N. Gama, M. Izabachene, P.Q. Nguyen, X. Xie, "Structural Lattice Reduction: Generalized Worst-Case to Average-Case Reductions and Homomorphic Cryptosystems", _EUROCRYPT 2016_, 2014. Available: [https://eprint.iacr.org/2014/283.pdf](https://eprint.iacr.org/2014/283.pdf).
+[^cheon2017]: J.H. Cheon, A. Kim, M. Kim, Y. Song, "Homomorphic Encryption for Arithmetic of Approximate Numbers", _ASIACRYPT 2017_, pp. 409-437, 2017. Available: [https://link.springer.com/content/pdf/10.1007%2F978-3-319-70694-8_15.pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-70694-8_15.pdf).
 [^li2020]: B. Li, D. Micciancio, "On the Security of Homomorphic Encryption on Approximate Numbers", 2020. [Online]. Available: [https://eprint.iacr.org/2020/1533.pdf](https://eprint.iacr.org/2020/1533.pdf).
 
 <!-- Links -->
-[Lattice-based cryptography]: https://en.wikipedia.org/wiki/Lattice-based_cryptography
-[Fully Homomorphic Encryption]: /fhe
+
+[lattice-based cryptography]: https://en.wikipedia.org/wiki/Lattice-based_cryptography
+[fully homomorphic encryption]: /fhe
+
 [research report]: /assets/blog/2021-05-04-fully-homomorphic-encryption-what-and-why/Onderzoeksrapport_Thomas van den Nieuwenhoff_S1124775_V1.0_Redacted.pdf
 [SALT Cyber Security]: https://salt-security.com/
 
 <!-- Images -->
-[fhehist]: /assets/blog/2021-05-28-homomorphic-encryption-history/fhehist.svg
+
+[fhehist]: /assets/blog/2021-05-27-homomorphic-encryption-history/fhehist.svg
