@@ -1,7 +1,7 @@
 version: "1"
 rules:
   - base: master
-    upstream: hydecorp:master
+    upstream: hydecorp/hydejack:master
     mergeMethod: merge
     assignees:
       - ThomasIAm
