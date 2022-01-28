@@ -1,0 +1,9 @@
+version: "1"
+rules:
+  - base: master
+    upstream: hydecorp:master
+    mergeMethod: merge
+    assignees:
+      - ThomasIAm
+    conflictReviewers:
+      - ThomasIAm
