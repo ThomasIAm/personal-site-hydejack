@@ -9,7 +9,7 @@ hide_description: true
 ---
 
 - this list will be replaced by the toc
-  {:toc .large-only}
+{:toc .large-only}
 
 This Application collects some Personal Data from its Users.
 
