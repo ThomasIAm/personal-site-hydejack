@@ -34,6 +34,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Bundle Update
         run: |
+          gem i bundler
           bundle i
           bundle update jekyll-theme-hydejack
 
