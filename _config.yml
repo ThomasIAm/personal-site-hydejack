@@ -38,7 +38,7 @@ keywords: [Thomas, van, den, Nieuwenhoff, tvdn, personal, portfolio, blog]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: /assets/global/img/face/face-891x891.webp
+logo: /assets/global/img/face-3080x3080.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
