@@ -36,7 +36,10 @@ title: About Me
     </a>
   </div>
   
-  <iframe src="https://api.badgr.io/public/assertions/IQwFdxDTSlGAf1ndyF5TUQ?embedVersion=1&amp;embedWidth=400&amp;embedHeight=242" title="Badge: GitLab Certified Associate" style="width: 400px; height: 242px; border: 0px;" class="item"></iframe>
+  <div class="item" style="height: 260px;">
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="67afd7d7-b335-419a-91bc-61661bf7b0ab" data-share-badge-host="https://www.credly.com"></div>
+    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+  </div>
 
   <div class="item" style="height: 260px;">
     <div data-iframe-width="150" data-iframe-height="260" data-share-badge-id="352815b1-a44e-4e0f-8f47-91ffeeda86ae" data-share-badge-host="https://www.credly.com" class="item"></div>
