@@ -15,22 +15,5 @@
     data-cf-beacon='{"token": "39291b9b5d3a4ac18723f94cc186cb12"}'></script>
 <!-- End Cloudflare Web Analytics -->
 
-<script>
-    var spotifyWrapper = document.createElement('div');
-    spotifyWrapper.classList.add('sidebar-spotify');
-
-    var spotifyLink = document.createElement('a');
-    spotifyLink.href = 'https://now-playing-profile-seven-black.vercel.app/now-playing-white?open';
-    spotifyLink.classList.add('sidebar-spotify-link');
-
-    var spotifyPlayer = document.createElement('img');
-    spotifyPlayer.src = 'https://now-playing-profile-seven-black.vercel.app/now-playing-white';
-    spotifyPlayer.alt = '';
-
-    spotifyLink.appendChild(spotifyPlayer);
-    spotifyWrapper.appendChild(spotifyLink);
-    document.getElementsByClassName('sidebar-sticky')[0].appendChild(spotifyWrapper);
-</script>
-
 <script src="/assets/js/pace.min.js"></script>
 <link rel="stylesheet" href="/assets/css/flash.css">
