@@ -27,10 +27,10 @@ title: Thomas van den Nieuwenhoff
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  I am an inquisitive student with a passion for ICT. I already have a lot of experience and am always looking for ways to increase my knowledge.
+  Colleagues know me as a studious person with a passion for IT.  At SALT, I currently focus on educating IT professionals, helping our customers achieve a better security posture and hopefully making the world a bit safer.
 
 # A shorter description for the sidebar.
-tagline: IT student and geek
+tagline: Cyber Security Consultant and Geek
 
 # A list of keywords for your blog
 keywords: [Thomas, van, den, Nieuwenhoff, tvdn, personal, portfolio, blog]
@@ -44,7 +44,7 @@ logo: /assets/global/img/face/face-3080x3080.jpg
 author:
   # Used by `jekyll-feed`:
   name: Thomas van den Nieuwenhoff
-  email: t.nieuwenhoff@gmail.com
+  email: thomas@tvdn.me
   # # Used by `jekyll-seo-tag`:
   twitter: thomasikdus
 
