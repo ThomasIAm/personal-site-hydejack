@@ -73,14 +73,14 @@ Want to know more? Then read my [**blog post about the history of FHE**](/fhe/20
 
 A revolutionary, but still young technology like FHE of course has many advantages and disadvantages. An example of this is the advantage that encrypted data can be processed, but the performance of this process is leaps behind what we are used to.
 
-Want to know more? Then read my (upcoming) [**blog post about the pros and cons of FHE**](){:.btn .disabled}.
+Want to know more? Then read my [**blog post about the pros and cons of FHE**](/fhe/_posts/2021-11-14-fully-homomorphic-encryption-pro-con).
 {:.read-more}
 
 ## The business applications
 
 There are a number of parties such as IBM and Microsoft that are investing heavily in FHE and its applications. IBM, for example, has implemented FHE at a Brazilian bank to protect the privacy of their customers in an AI project. Among other things, Microsoft uses FHE in an interesting way in their Edge browser.
 
-Want to know more? Then read my (upcoming) [**blog post about FHE's business applications**](){:.btn .disabled}.
+Want to know more? Then read my [**blog post about FHE's business applications**](/fhe/_posts/2021-11-15-homomorphic-encryption-applications).
 {:.read-more}
 
 This article is based on a [research report] I wrote for the project "Fully Homomorphic Encryption" commissioned by [SALT Cyber Security]. You can also read this blog post (in Dutch) on their website at [https://salt-security.com/nieuws/fully-homomorphic-encryption-wat-en-waarom/](https://salt-security.com/nieuws/fully-homomorphic-encryption-wat-en-waarom/).
