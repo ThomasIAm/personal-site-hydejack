@@ -24,6 +24,12 @@ title: About Me
 ## Badges
 
 <div class="container">
+  <div class="item">
+    <a href="https://blog.cloudflare.com/empowering-our-customers-and-service-partners" class="no-deco">
+      <img src="/assets/about/ace.png"  style="max-height: 200px">
+    </a>
+  </div>
+  
   <div class="item" style="height: 260px;">
     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="05cde803-0d94-47a5-82f9-a8544f93e681" data-share-badge-host="https://www.credly.com">
     </div>
