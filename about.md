@@ -25,6 +25,10 @@ title: About Me
 
 <div class="container">
   <div class="item">
+    <img src="/assets/about/cis.png"  style="max-height: 200px">
+  </div>
+  
+  <div class="item">
     <a href="https://blog.cloudflare.com/empowering-our-customers-and-service-partners" class="no-deco">
       <img src="/assets/about/ace.png"  style="max-height: 200px">
     </a>
