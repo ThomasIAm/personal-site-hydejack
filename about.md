@@ -23,6 +23,10 @@ e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
 
 <div class="container">
   <div class="item">
+    <img src="/assets/about/asa.png"  style="max-height: 200px">
+  </div>
+  
+  <div class="item">
     <img src="/assets/about/ase.jpg"  style="max-height: 200px">
   </div>
   
