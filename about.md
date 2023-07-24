@@ -27,6 +27,10 @@ e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
   </div>
   
   <div class="item">
+    <img src="/assets/about/ase.jpg"  style="max-height: 200px">
+  </div>
+  
+  <div class="item">
     <img src="/assets/about/cis.png"  style="max-height: 200px">
   </div>
   
