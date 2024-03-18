@@ -21,7 +21,12 @@ e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
 
 ## Badges
 
-<div class="container">
+<div class="container" style="height: 260px;">
+  <div class="item">
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="95589ee8-6ea0-473e-9e82-4e3987012877" data-share-badge-host="https://www.credly.com">
+    </div>
+    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+  
   <div class="item">
     <img src="/assets/about/asa.png"  style="max-height: 200px">
   </div>
