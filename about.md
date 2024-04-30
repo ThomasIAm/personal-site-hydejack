@@ -23,6 +23,8 @@ e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
 
 <div class="container">
   <div class="item" style="height: 260px;">
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="18f84f10-92f3-4667-9641-2eaa96ad23a4" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="95589ee8-6ea0-473e-9e82-4e3987012877" data-share-badge-host="https://www.credly.com">
     </div>
     <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
