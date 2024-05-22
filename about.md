@@ -10,7 +10,7 @@ title: About Me
 {% include about.md %}
 
 <!-- Place <div> tag where you want the feed to appear -->
-<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a>
+<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
 
 ## Badges
 
