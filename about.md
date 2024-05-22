@@ -10,24 +10,16 @@ title: About Me
 {% include about.md %}
 
 <!-- Place <div> tag where you want the feed to appear -->
-<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div><!-- The Javascript can be moved to the end of the html page before the </body> tag --><script type="text/javascript">
-/* curator-feed-default-feed-layout */
-(function(){
-var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
-i.src="https://cdn.curator.io/published/d3dd56e8-3661-44ae-bb64-1893b381f0c2.js";
-e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
-})();
-</script>
+<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
 
 ## Badges
 
 <div class="container">
   <div class="item" style="height: 260px;">
-    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="18f84f10-92f3-4667-9641-2eaa96ad23a4" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="18f84f10-92f3-4667-9641-2eaa96ad23a4" data-share-badge-host="https://www.credly.com"></div>
 
     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="95589ee8-6ea0-473e-9e82-4e3987012877" data-share-badge-host="https://www.credly.com">
     </div>
-    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
   </div>
   
   <div class="item">
@@ -51,7 +43,6 @@ e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
   <div class="item" style="height: 260px;">
     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="05cde803-0d94-47a5-82f9-a8544f93e681" data-share-badge-host="https://www.credly.com">
     </div>
-    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
   </div>
   
   <div class="item">
@@ -62,11 +53,9 @@ e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
   
   <div class="item" style="height: 260px;">
     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="67afd7d7-b335-419a-91bc-61661bf7b0ab" data-share-badge-host="https://www.credly.com"></div>
-    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
   </div>
 
   <div class="item" style="height: 260px;">
     <div data-iframe-width="150" data-iframe-height="260" data-share-badge-id="352815b1-a44e-4e0f-8f47-91ffeeda86ae" data-share-badge-host="https://www.credly.com" class="item"></div>
-    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
   </div>
 </div>
