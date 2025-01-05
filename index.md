@@ -38,9 +38,9 @@ If you would like to reach out to me, be sure to check out the contact page. I h
 Visit my [**contact**](/contact) page
 {:.read-more}
 
-## Wiki
+<!-- ## Wiki
 
 This personal wiki is somewhat of an experimental ground for me. At some point, I wanted it to be a complete brain dump, blog, and community combined. You can find some knowledge from my study there, but that's it. Be sure to check it out though, because it's built on the amazing platform [Wiki.js](https://js.wiki/).
 
-Visit my [**wiki**](https://wiki.tvdn.me)
+Visit my [**wiki**](https://wiki.tvdn.me) -->
 {:.read-more}

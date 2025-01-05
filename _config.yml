@@ -45,8 +45,17 @@ author:
   # Used by `jekyll-feed`:
   name: Thomas van den Nieuwenhoff
   email: thomas@tvdn.me
+  about: |
+    Colleagues know me as a studious person with a passion for IT. My specialties are: containerization/virtualization, cloud, IT architecture, security engineering, and IT management.
+    I am always looking for ways to enrich my knowledge.
+    At SALT, I currently focus on educating IT professionals, helping our customers achieve a better security posture and hopefully making the world a bit safer.
+  picture:
+    path: /assets/global/img/face/face-3080x3080.jpg
   # # Used by `jekyll-seo-tag`:
-  twitter: thomasikdus
+  # twitter: thomasikdus
+  social:
+    linkedin: tvdn
+    github: ThomasIAm
 
 # Add links to the sidebar.
 menu:
@@ -58,8 +67,8 @@ menu:
     url: /projects
   - title: Contact
     url: /contact
-  - title: Wiki
-    url: https://wiki.tvdn.me
+  # - title: Wiki
+  #   url: https://wiki.tvdn.me
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
