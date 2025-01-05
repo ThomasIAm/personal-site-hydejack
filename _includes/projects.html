@@ -1,130 +1,73 @@
 <!--sse-->
-<link rel="stylesheet" href="/assets/css/projects.css">
+<link rel="stylesheet" href="/assets/css/projects.css" />
 
 <!-- Slideshow container -->
-<div class="slideshow-container">
-
-	<!-- Full-width images with number and caption text -->
-	<div class="mySlides fade">
-		<div class="numbertext">1 / 9</div>
-		<a href="https://ym.tvdn.me" target="_blank">
-			<img src="/assets/projects/young-mountaineers.png"
-				style="width:100%">
-		</a>
-		<div class="text">A fully functional backoffice and public portfolio webapp built with Mendix for a school project</div>
+<div class="carousel-container">
+  <div class="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <a href="https://ym.tvdn.me" target="_blank">
+          <img src="/assets/projects/young-mountaineers.png" alt="Young Mountaineers backoffice" />
+        </a>
+        <div class="caption">A fully functional backoffice and public portfolio webapp built with Mendix for a school project</div>
+      </div>
+      <div class="carousel-item">
+        <a href="https://github.com/ThomasIAm/WindeSearch" target="_blank">
+          <img src="https://github.com/ThomasIAm/WindeSearch/blob/main/screenshots/google/main.jpg?raw=true" alt="WindeSearch chrome extension" />
+        </a>
+        <div class="caption">A browser extension that makes it easy to access WindeSearch (my school's library search engine)</div>
+      </div>
+      <div class="carousel-item">
+        <a href="https://pp3.tvdn.me" target="_blank">
+          <img src="/assets/projects/pp3.png" alt="Capture the Flag" />
+        </a>
+        <div class="caption">The CTF I made for a school project using RootTheBox, LogonBox and VMware vCenter</div>
+      </div>
+	  <div class="carousel-item">
+        <a href="https://wiki.tvdn.me" target="_blank">
+          <img src="/assets/projects/wiki.jpeg" alt="Personal wiki" />
+        </a>
+        <div class="caption">My personal wiki, built on wiki.js</div>
+      </div>
+	  <div class="carousel-item">
+        <a href="https://vm2.tvdn.me" target="_blank">
+          <img src="https://github.com/ThomasIAm/VM2Portaal/blob/master/VM2PortaalCover.png?raw=true" alt="Private cloud portal" />
+        </a>
+        <div class="caption">A simple cloud portal, made for a school project, written in PHP</div>
+      </div>
+      <div class="carousel-item">
+        <a href="https://benikincapabel.nl" target="_blank">
+          <img src="/assets/projects/benikincapabel.jpeg" alt="benikincapabel.nl" />
+        </a>
+        <div class="caption">benikincapabel.nl: a joke gone live</div>
+      </div>
+      <div class="carousel-item">
+        <a href="https://kbsa.tvdn.me" target="_blank">
+          <img src="/assets/projects/kbsa.png" alt="PHP based webshop" />
+        </a>
+        <div class="caption">A webshop written in PHP, built on the Wide World Importers database for a school project</div>
+      </div>
+      <div class="carousel-item">
+        <a href="https://ai.tvdn.me" target="_blank">
+          <img src="/assets/projects/ai.png" alt="Website about AI" />
+        </a>
+        <div class="caption">A website about Artificial Intelligence, made for a school project</div>
+      </div>
+      <div class="carousel-item">
+        <a href="https://old.tvdn.me" target="_blank">
+          <img src="/assets/projects/old.jpeg" alt="Old personal website" />
+        </a>
+        <div class="caption">My old personal website, made in PHP with Material Design</div>
+      </div>
+    </div>
+    <button class="prev" onclick="prevSlide()">&#10094;</button>
+    <button class="next" onclick="nextSlide()">&#10095;</button>
+	<div class="progress-bar">
+		<div class="progress"></div>
 	</div>
-
-	<div class="mySlides fade">
-		<div class="numbertext">2 / 9</div>
-		<a href="https://github.com/ThomasIAm/WindeSearch" target="_blank">
-			<img src="https://github.com/ThomasIAm/WindeSearch/blob/main/screenshots/google/main.jpg?raw=true"
-				style="width:100%">
-		</a>
-		<div class="text">A browser extension that makes it easy to access WindeSearch (my school's library search engine)
-		</div>
-	</div>
-
-	<div class="mySlides fade">
-		<div class="numbertext">3 / 9</div>
-		<a href="https://pp3.tvdn.me" target="_blank">
-			<img src="/assets/projects/pp3.png" style="width:100%">
-		</a>
-		<div class="text">The CTF I made for a school project using RootTheBox, LogonBox and VMware vCenter</div>
-	</div>
-
-	<div class="mySlides fade">
-		<div class="numbertext">4 / 9</div>
-		<a href="https://wiki.tvdn.me" target="_blank">
-			<img src="/assets/projects/wiki.jpeg" style="width:100%">
-		</a>
-		<div class="text">My personal wiki, built on wiki.js</div>
-	</div>
-
-	<div class="mySlides fade">
-		<div class="numbertext">5 / 9</div>
-		<a href="https://vm2.tvdn.me" target="_blank">
-			<img src="https://github.com/ThomasIAm/VM2Portaal/blob/master/VM2PortaalCover.png?raw=true" style="width:100%">
-		</a>
-		<div class="text">A simple cloud portal, made for a school project, written in PHP</div>
-	</div>
-
-	<div class="mySlides fade">
-		<div class="numbertext">6 / 9</div>
-		<a href="https://benikincapabel.nl" target="_blank">
-			<img src="/assets/projects/benikincapabel.jpeg" style="width:100%">
-		</a>
-		<div class="text">benikincapabel.nl: a joke gone live</div>
-	</div>
-
-	<div class="mySlides fade">
-		<div class="numbertext">7 / 9</div>
-		<a href="https://kbsa.tvdn.me" target="_blank">
-			<img src="/assets/projects/kbsa.png" style="width:100%">
-		</a>
-		<div class="text">A webshop written in PHP, built on the Wide World Importers database for a school project</div>
-	</div>
-
-	<div class="mySlides fade">
-		<div class="numbertext">8 / 9</div>
-		<a href="https://ai.tvdn.me" target="_blank">
-			<img src="/assets/projects/ai.png" style="width:100%">
-		</a>
-		<div class="text">A website about Artificial Intelligence, made for a school project</div>
-	</div>
-
-	<div class="mySlides fade">
-		<div class="numbertext">9 / 9</div>
-		<a href="https://old.tvdn.me" target="_blank">
-			<img src="/assets/projects/old.jpeg" style="width:100%">
-		</a>
-		<div class="text">My old personal website, made in PHP with Material Design</div>
-	</div>
-
-	<!-- Next and previous buttons -->
-	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
 </div>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-	<span class="dot" onclick="currentSlide(1)"></span>
-	<span class="dot" onclick="currentSlide(2)"></span>
-	<span class="dot" onclick="currentSlide(3)"></span>
-	<span class="dot" onclick="currentSlide(4)"></span>
-	<span class="dot" onclick="currentSlide(5)"></span>
-	<span class="dot" onclick="currentSlide(6)"></span>
-	<span class="dot" onclick="currentSlide(7)"></span>
-	<span class="dot" onclick="currentSlide(8)"></span>
-	<span class="dot" onclick="currentSlide(9)"></span>
-</div>
-
-<script>
-	var slideIndex = 1;
-	showSlides(slideIndex);
-
-	function plusSlides(n) {
-		showSlides(slideIndex += n);
-	}
-
-	function currentSlide(n) {
-		showSlides(slideIndex = n);
-	}
-
-	function showSlides(n) {
-		var i;
-		var slides = document.getElementsByClassName("mySlides");
-		var dots = document.getElementsByClassName("dot");
-		if (n > slides.length) { slideIndex = 1 }
-		if (n < 1) { slideIndex = slides.length }
-		for (i = 0; i < slides.length; i++) {
-			slides[i].style.display = "none";
-		}
-		for (i = 0; i < dots.length; i++) {
-			dots[i].className = dots[i].className.replace(" active", "");
-		}
-		slides[slideIndex - 1].style.display = "block";
-		dots[slideIndex - 1].className += " active";
-	}
-</script>
+<script src="/assets/js/projects.js"></script>
 
 <!--sse-->

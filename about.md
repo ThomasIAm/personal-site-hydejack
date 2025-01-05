@@ -15,11 +15,12 @@ title: About Me
 ## Badges
 
 <div class="container">
-  <div class="item" style="height: 260px;">
+  <div class="item">
     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="18f84f10-92f3-4667-9641-2eaa96ad23a4" data-share-badge-host="https://www.credly.com"></div>
+  </div>
 
-    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="95589ee8-6ea0-473e-9e82-4e3987012877" data-share-badge-host="https://www.credly.com">
-    </div>
+  <div class="item">
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="95589ee8-6ea0-473e-9e82-4e3987012877" data-share-badge-host="https://www.credly.com"></div>
   </div>
   
   <div class="item">
@@ -59,3 +60,5 @@ title: About Me
     <div data-iframe-width="150" data-iframe-height="260" data-share-badge-id="352815b1-a44e-4e0f-8f47-91ffeeda86ae" data-share-badge-host="https://www.credly.com" class="item"></div>
   </div>
 </div>
+
+<script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
