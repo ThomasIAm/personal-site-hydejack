@@ -138,7 +138,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-target-blank
-  jekyll-theme-hydejack (~> 9.1)
+  jekyll-theme-hydejack (~> 9.2)
   jekyll-titles-from-headings
   kramdown-math-katex
   webrick

@@ -12,7 +12,7 @@ url: https://tvdn.me
 # Use the empty string '' otherwise.
 # For GitHub project sites, this is usually the name of the project,
 # e.g. `/hydejack`.
-baseurl: ''
+baseurl: ""
 
 # General settings
 # ---------------------------------------------------------------------------------------
@@ -27,10 +27,10 @@ title: Thomas van den Nieuwenhoff
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  Colleagues know me as a studious person with a passion for IT.  At SALT, I currently focus on educating IT professionals, helping our customers achieve a better security posture and hopefully making the world a bit safer.
+  My (Thomas van den Nieuwenhoff) personal website.
 
 # A shorter description for the sidebar.
-tagline: Cyber Security Consultant and Geek
+tagline: Lead Cyber Security Consultant and Geek
 
 # A list of keywords for your blog
 keywords: [Thomas, van, den, Nieuwenhoff, tvdn, personal, portfolio, blog]
@@ -38,24 +38,25 @@ keywords: [Thomas, van, den, Nieuwenhoff, tvdn, personal, portfolio, blog]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: /assets/global/img/face/face-3080x3080.jpg
+logo: https://tvdn.me/cdn-cgi/image/onerror=redirect,width=auto/assets/global/img/face/face-3080x3080.jpg
 
-# This should be the same author as first entry in `_data/authors.yml`.
-author:
-  # Used by `jekyll-feed`:
-  name: Thomas van den Nieuwenhoff
-  email: thomas@tvdn.me
-  about: |
-    Colleagues know me as a studious person with a passion for IT. My specialties are: containerization/virtualization, cloud, IT architecture, security engineering, and IT management.
-    I am always looking for ways to enrich my knowledge.
-    At SALT, I currently focus on educating IT professionals, helping our customers achieve a better security posture and hopefully making the world a bit safer.
-  picture:
-    path: /assets/global/img/face/face-3080x3080.jpg
-  # # Used by `jekyll-seo-tag`:
-  # twitter: thomasikdus
-  social:
-    linkedin: tvdn
-    github: ThomasIAm
+# Apparently only the entries in _data are used.
+# # This should be the same author as first entry in `_data/authors.yml`.
+# author:
+#   # Used by `jekyll-feed`:
+#   name: Thomas van den Nieuwenhoff
+#   email: thomas@tvdn.me
+#   about: |
+#     Colleagues know me as a studious person with a passion for IT. My specialties are: containerization/virtualization, cloud, IT architecture, security engineering, and IT management.
+#     I am always looking for ways to enrich my knowledge.
+#     At SALT, I currently focus on educating IT professionals, helping our customers achieve a better security posture and hopefully making the world a bit safer.
+#   picture:
+#     path: /assets/global/img/face/face-3080x3080.jpg
+#   # # Used by `jekyll-seo-tag`:
+#   # twitter: thomasikdus
+#   social:
+#     linkedin: tvdn
+#     github: ThomasIAm
 
 # Add links to the sidebar.
 menu:
@@ -122,7 +123,7 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
 
 # Sidebar image and theme color of the site.
-accent_image: /assets/global/img/bg/sidebar-bg-3000x1688.webp
+accent_image: https://tvdn.me/cdn-cgi/image/onerror=redirect,width=auto/assets/global/img/bg/sidebar-bg-3000x1688.webp
 accent_color: rgb(244,67,54)
 
 # This is used for the `theme-color` meta tag,
@@ -195,7 +196,7 @@ defaults:
 kramdown:
   math_engine: katex
   math_engine_opts: {}
-  footnote_backlink: '&#x21a9;&#xfe0e;'
+  footnote_backlink: "&#x21a9;&#xfe0e;"
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
@@ -388,7 +389,7 @@ titles_from_headings:
   collections: true
 
 compress_html:
-  comments: ['<!-- ', ' -->']
+  comments: ["<!-- ", " -->"]
   clippings: all
   endings: all
   ignore:

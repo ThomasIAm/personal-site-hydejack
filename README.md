@@ -11,7 +11,7 @@ This is the repository for my personal website built with [Hydejack](https://hyd
 1. Clone repository (git users), or [download] and unzip.
 2. Open terminal, `cd` into root directory (where `_config.yml` is located)
 3. Run `bundle install` [^1]
-4. Run `bundle exec jekyll serve`
+4. Run `bundle exec jekyll serve -l`
 5. Open <http://localhost:4000/hydejack-starter-kit/>
 
 ## What's next?

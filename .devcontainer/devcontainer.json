@@ -1,53 +1,53 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
 {
-	"name": "Jekyll",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"args": {
-			// Enable Node.js: pick the latest LTS version
-			"NODE_VERSION": "lts/*"
-		}	
-	},
+  "name": "Jekyll",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      // Enable Node.js: pick the latest LTS version
+      "NODE_VERSION": "lts/*"
+    }
+  },
 
-	"customizations": {
-		"vscode": {
-			// Set *default* container specific settings.json values on container create.
-			"settings": { 
-				"terminal.integrated.shell.linux": "/bin/bash"
-			},
-			// Add the IDs of extensions you want installed when the container is created.
-			"extensions": [
-				"docsmsft.docs-markdown",
-				"ritwickdey.liveserver",
-				"shd101wyy.markdown-preview-enhanced",
-				"davidanson.vscode-markdownlint",
-				"znck.grammarly",
-				"adamvoss.vscode-languagetool",
-				"bungcip.better-toml",
-				"streetsidesoftware.code-spell-checker",
-				"streetsidesoftware.code-spell-checker-dutch",
-				"eamodio.gitlens",
-				"ms-azuretools.vscode-docker",
-				"yzhang.markdown-all-in-one",
-				"esbenp.prettier-vscode"
-			],
-		}
-	},	
+  "customizations": {
+    "vscode": {
+      // Set *default* container specific settings.json values on container create.
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "docsmsft.docs-markdown",
+        "ritwickdey.liveserver",
+        "shd101wyy.markdown-preview-enhanced",
+        "davidanson.vscode-markdownlint",
+        "znck.grammarly",
+        "adamvoss.vscode-languagetool",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-dutch",
+        "eamodio.gitlens",
+        "ms-azuretools.vscode-docker",
+        "yzhang.markdown-all-in-one",
+        "esbenp.prettier-vscode",
+        "tamasfe.even-better-toml"
+      ]
+    }
+  },
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [
-		// Jekyll server
-		4000,
-		// Live reload server
-		35729,
-		// Live Server
-		5500
-	],
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [
+    // Jekyll server
+    4000,
+    // Live reload server
+    35729,
+    // Live Server
+    5500
+  ],
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sh .devcontainer/post-create.sh",
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": "sh .devcontainer/post-create.sh",
 
-	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode"
+  // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+  "remoteUser": "vscode"
 }
