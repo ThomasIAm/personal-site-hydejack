@@ -16,6 +16,10 @@ title: About Me
 
 <div class="container">
   <div class="item">
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d8cb9547-4229-4a5b-94ed-df8bcc30c909" data-share-badge-host="https://www.credly.com"></div>
+  </div>
+  
+  <div class="item">
     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="18f84f10-92f3-4667-9641-2eaa96ad23a4" data-share-badge-host="https://www.credly.com"></div>
   </div>
 
