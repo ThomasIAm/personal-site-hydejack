@@ -16,6 +16,12 @@ title: About Me
 
 <div class="container">
   <div class="item">
+    <a href="https://university.cloudflare.com/credential/verify/f1db1fd9-e0dc-45eb-b111-47e0a884f24f" class="no-deco">
+      <img src="/assets/about/amsp.png"  style="max-height: 200px">
+    </a>
+  </div>
+  
+  <div class="item">
     <a href="https://university.cloudflare.com/credential/verify/260ad5dc-bb33-4fea-be51-266c8e80553e" class="no-deco">
       <img src="/assets/about/asa.png"  style="max-height: 200px">
     </a>
