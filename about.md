@@ -98,3 +98,13 @@ title: About Me
 </div>
 
 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+<script type="text/javascript">
+/* curator-feed-default-feed-layout */
+(function(){
+var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+i.src="https://cdn.curator.io/published/d3dd56e8-3661-44ae-bb64-1893b381f0c2.js";
+e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
+</script>
