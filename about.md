@@ -17,7 +17,7 @@ title: About Me
 <div class="container">
   <div class="item">
     <a href="https://university.cloudflare.com/credential/verify/260ad5dc-bb33-4fea-be51-266c8e80553e" class="no-deco">
-      <img src="/assets/about/asa.png"  style="max-height: 200px" glass="gray">
+      <img src="/assets/about/asa.png"  style="max-height: 200px" class="gray">
     </a>
   </div>
   
